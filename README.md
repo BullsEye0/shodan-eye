@@ -10,6 +10,7 @@ The information gained from these tool can be applied to many areas, a small exa
 And so much more.
 
 What is the difference with Google or any other search engine:
+
 The most fundamental difference is that Shodan Eye crawls the internet, Google crawls the World Wide Web.
 However, the devices that support the World Wide Web are only a small part of what is actually connected to the Internet.
 Shodan Eye gives a complete picture of the internet.
