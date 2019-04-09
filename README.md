@@ -20,7 +20,8 @@ How to setup:
 
 Create an account at shodan.io
 
-Than copy your own API Key that you can find here: https://account.shodan.io
+Than copy your own API Key that you can find here: account.shodan.io
+
 
 Install:
 
