@@ -1,8 +1,6 @@
 # shodan-eye
 Shodan Eye This tool collects all the information about all devices directly connected to the internet using the specified keywords that you enter. This way you get a complete overview.
 
-Shodan Eye
-This tool collects all the information about all devices directly connected to the internet using the specified keywords that you enter. This way you get a complete overview.
 The types of devices that are indexed can vary enormously: from small desktops, refrigerators to nuclear power plants and everything in between.
 You can find everything using "your own" specified keywords(s).
 
