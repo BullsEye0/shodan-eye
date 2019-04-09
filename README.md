@@ -24,9 +24,9 @@ Than copy your own API Key that you can find here: https://account.shodan.io
 
 Install:
 
-git clone "....."
+git clone https://github.com/BullsEye0/shodan-eye.git
 
-cd "..."
+cd shodan-eye
 
 python shodan_eye.py
 
