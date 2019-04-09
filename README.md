@@ -17,7 +17,9 @@ However, the devices that support the World Wide Web are only a small part of wh
 Shodan Eye gives a complete picture of the internet.
 
 How to setup:
+
 Create an account at shodan.io
+
 Than copy your own API Key that you can find here: https://account.shodan.io
 
 Install:
