@@ -15,12 +15,14 @@ The most fundamental difference is that Shodan Eye crawls the internet, Google c
 However, the devices that support the World Wide Web are only a small part of what is actually connected to the Internet.
 Shodan Eye gives a complete picture of the internet.
 
+****
 How to setup:
 
 Create an account at shodan.io
 
 Then copy your own API Key that you can find here: account.shodan.io
 
+****
 Install:
 git clone https://github.com/BullsEye0/shodan-eye.git
 
@@ -28,6 +30,7 @@ cd shodan-eye
 
 python shodan_eye.py
 
+****
 Have fun..!
 
 Video:
