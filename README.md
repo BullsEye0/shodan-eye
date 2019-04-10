@@ -24,13 +24,17 @@ Then copy your own API Key that you can find here: account.shodan.io
 
 ****
 
-Install:
-
 Install the shodan library:
 
 easy_install shodan
+or 
+
+pip install shodan
 
 https://cli.shodan.io/
+
+****
+Install:
 
 git clone https://github.com/BullsEye0/shodan-eye.git
 
