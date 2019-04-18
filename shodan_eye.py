@@ -2,6 +2,9 @@
 # This Python file uses the following encoding: utf-8
 # Bulls Eye: https://github.com/BullsEye0
 
+# This was written for educational purpose and pentest only. Use it at your own risk.
+# Author will be not responsible for any damage!
+
 # Your Shodan API Key can be found here: https://account.shodan.io
 # Have fun..!
 
