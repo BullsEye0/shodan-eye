@@ -1,0 +1,90 @@
+Shodan Dorks ... The Internet of Sh*t
+
+
+A small collection of search queries for Shodan
+
+This was written for educational purpose and pentest only.
+The author will be not responsible for any damage..!
+The author of this tool is not responsible for any misuse of the information.
+You shall not misuse the information to gain unauthorized access.
+This information shall only be used to expand knowledge and not for
+causing malicious or damaging attacks.
+Performing any hacks without written permission is illegal..!!!
+
+
+Chromecasts / Smart TVs →
+"Chromecast:" port:8008
+
+
+Traffic Light Controllers / Red Light Cameras →
+mikrotik streetlight
+
+
+IP cams, some of which are unprotected →
+IP Cams
+
+
++ 21k surveillance cams, user: admin; NO PASSWORD →
+NETSurveillance uc-httpd
+
+
+DICOM Medical X-Ray Machines →
+Secured by default, thankfully, but these 1,700 + machines still have no business being on the internet..!
+DICOM Server Response
+
+
+Door / Lock Access Controllers →
+"HID VertX" port:4070
+
+
+Electric Vehicle Chargers mag_right →
+"Server: gSOAP/2.8" "Content-Length: 583"
+
+
+Remote Desktop →
+Unprotected..!
+"authentication disabled" "RFB 003.008"
+
+
+Windows RDP →
+99.99% are secured by a secondary Windows login screen.
+"\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"
+
+
+Lantronix ethernet adapter's →
+admin interface open, NO PASSWORD required.
+Press Enter Setup Mode port:9999
+
+
+Pi-hole Open DNS Servers →
+"dnsmasq-pi-hole" "Recursion: enabled"
+
+
+Already Logged-In as root via Telnet →
+"root@" port:23 -login -password -name -Session
+
+
+Android Root Bridges →
+A tangential result of Google’s dumb fractured update approach.
+"Android Debug Bridge" "Device" port:5555
+
+
+Xerox Copiers/Printers →
+With root acces..!
+ssl:"Xerox Generic Root"
+
+
+Apple AirPlay Receivers →
+Apple TVs, HomePods, etc.
+"\x08_airplay" port:5353
+
+
+TCP Quote of the Day →
+Port 17 (RFC 865) has a bizarre history…
+port:17 product:"Windows qotd"
+
+
+Find a Job Doing This..! →
+"X-Recruiting:"
+
+
