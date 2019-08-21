@@ -18,6 +18,7 @@ A Shodan API key can be found here: https://account.shodan.io/register
 ## A collection of search queries for Shodan is attached:
 Shodan Search Queries ... The Internet of Sh * t
 Shodan_The_Internet_of_Sh * t.txt
+* https://github.com/BullsEye0/shodan-eye/blob/master/Shodan_Dorks_The_Internet_of_Sh*t.txt
 ****
 ## I also want to make you aware that:
 This was written for educational purpose and pentest only.
