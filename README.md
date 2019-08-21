@@ -20,13 +20,13 @@ Shodan Dorks ... The Internet of Sh*t
 * https://github.com/BullsEye0/shodan-eye/blob/master/Shodan_Dorks_The_Internet_of_Sh*t.txt
 ****
 ## I also want to make you aware that:
-This was written for educational purpose and pentest only.
-The author will not be responsible for any damage ..!
-The author of this tool is not responsible for any misuse of the information.
-You will not misuse the information to gain unauthorized access.
-This information shall only be used to expand knowledge and not for
+* This was written for educational purpose and pentest only.
+* The author will not be responsible for any damage ..!
+* The author of this tool is not responsible for any misuse of the information.
+* You will not misuse the information to gain unauthorized access.
+* This information shall only be used to expand knowledge and not for
 causing malicious or damaging attacks.
-Performing any hacks without written permission is illegal ..!
+* Performing any hacks without written permission is illegal ..!
 ****
 
 ![Screenshot](img/banner.png)
