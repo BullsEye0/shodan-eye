@@ -29,7 +29,7 @@ causing malicious or damaging attacks.
 Performing any hacks without written permission is illegal ..!
 ****
 
-![Screenshot](banner.png)
+![Screenshot](img/banner.png)
 
 ## Video Blue Eye on YouTube:
 
