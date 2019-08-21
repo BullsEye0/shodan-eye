@@ -8,7 +8,7 @@ The information obtained with this tool can be applied in many areas, a small ex
 * Vulnerabilities.
 And so much more.
 
-## What is the difference between Google or another search engine:
+***What is the difference between Google or another search engine:***
 The most fundamental difference is that Shodan Eye crawls on the internet, Google on the World Wide Web. However, the devices that support the World Wide Web are only a small part of what is actually connected to the Internet.
 ****
 ## Shodan
@@ -34,11 +34,11 @@ causing malicious or damaging attacks.
 ![Screenshot](img/banner2.png)
 ****
 ![Screenshot](img/banner3.png)
-
+****
 ## Video Blue Eye on YouTube:
 
 
-
+****
 ## Python:
 
 I made this script in python 2.7 
@@ -60,7 +60,7 @@ python shodan-eye
 (You will be asked for a Shodan API key)
 
 Have fun ..! 😃
-
+****
 ## Contact to coder
 ***Social Networks - Connect
 
