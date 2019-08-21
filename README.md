@@ -16,8 +16,7 @@ For additional data gathering, you can enter a Shodan API key when prompted.
 A Shodan API key can be found here: https://account.shodan.io/register
 ****
 ## A collection of search queries for Shodan is attached:
-Shodan Search Queries ... The Internet of Sh * t
-Shodan_The_Internet_of_Sh * t.txt
+Shodan Dorks ... The Internet of Sh*t
 * https://github.com/BullsEye0/shodan-eye/blob/master/Shodan_Dorks_The_Internet_of_Sh*t.txt
 ****
 ## I also want to make you aware that:
