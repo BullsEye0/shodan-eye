@@ -35,12 +35,8 @@ causing malicious or damaging attacks.
 ****
 ![Screenshot](img/banner3.png)
 ****
-## Video Blue Eye on YouTube:
-<div align="center">
-    <iframe width="620" height="315"
-        src="https://youtu.be/fOqmlOLiMsQ">
-    </iframe>
-</div>
+## Video Shodan Eye on YouTube:
+[Link to: Shodan Eye on YouTube](https://youtu.be/fOqmlOLiMsQ "Shodan Eye on YouTube")
 
 ****
 ## Python:
@@ -49,7 +45,7 @@ I made this script in python 2.7
 (Later I can - I will change this to python 3) But for now I think python 2 is nicer, more beautiful and better. "It's kind of personal" 😃
 
 
-## Install Blue Eye on Linux:
+## Install Shodan Eye on Linux:
 
 git clone https://github.com/BullsEye0/shodan-eye.git
 
