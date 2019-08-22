@@ -36,7 +36,11 @@ causing malicious or damaging attacks.
 ![Screenshot](img/banner3.png)
 ****
 ## Video Blue Eye on YouTube:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fOqmlOLiMsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center">
+    <iframe width="620" height="315"
+        src="https://youtu.be/fOqmlOLiMsQ">
+    </iframe>
+</div>
 
 ****
 ## Python:
