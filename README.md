@@ -8,6 +8,9 @@ The information obtained with this tool can be applied in many areas, a small ex
 * Vulnerabilities.
 And so much more.
 
+# Shodan 
+Is a search engine that lets the user find specific types of computers (webcams, routers, servers, etc.) connected to the internet using a variety of filters. Some have also described it as a search engine of service banners, which are metadata that the server sends back to the client.
+
 ***What is the difference between Google or another search engine:***
 The most fundamental difference is that Shodan Eye crawls on the internet, Google on the World Wide Web. However, the devices that support the World Wide Web are only a small part of what is actually connected to the Internet.
 ****
