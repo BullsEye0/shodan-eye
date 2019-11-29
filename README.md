@@ -64,20 +64,19 @@ python shodan-eye
 
 Have fun ..! 😃
 ****
-## Contact to coder
-***Social Networks - Connect
 
-Facebook: https://www.facebook.com/jolandadekoff
+# Contact to coder
+Social Networks - Connect
 
-linkedin: https://www.linkedin.com/in/jolandadekoff
+* [Facebook Personal](https://www.facebook.com/jolandadekoff)
 
-Youtube: https://youtu.be/XCtWM-4ov2U
+* [linkedin](https://www.linkedin.com/in/jolandadekoff/)
 
-Facebook Page: https://www.facebook.com/ethical.hack.group
+* [Youtube](https://youtu.be/XCtWM-4ov2U)
 
-Facebook Group: https://www.facebook.com/groups/Ethical.Hacking.Cyber.Secure/
+* [Facebook Page](https://www.facebook.com/ethical.hack.group)
 
-Facebook Group: https://www.facebook.com/groups/ethicalhacking.hacker
+* [Facebook Group](https://www.facebook.com/groups/ethical.hack.group/)
 
 ## Donation Button: 
 **LiberaPay**
