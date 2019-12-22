@@ -80,8 +80,9 @@ Social Networks - Connect
 
 * [Facebook Group](https://www.facebook.com/groups/ethical.hack.group/)
 
-## Donation Button: 
-**Buy me a coffee**
-I have developed Shodan Eye because I am passionate about this. Donations are one of the many ways to support what I do.
+
+## Buy me a coffee
+I have developed Shodan Eye because I am passionate about this. 
+Donations are one of the many ways to support what I do.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R96YN2PUS8V8W)
