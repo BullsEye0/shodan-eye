@@ -1,8 +1,11 @@
 # Shodan Eye
 This tool collects all information about all devices that are directly connected to the internet with the specified keywords that you enter. This way you get a complete overview.
+****
 
 Here you can read the latest article about Shodan Eye:
+
 https://hackingpassion.com/shodan-eye-ethical-hacking-tool-release/
+****
 
 The types of devices that are indexed can vary enormously: from small desktops, refrigerators to nuclear power plants and everything in between. You can find everything using "your own" specified keywords. Examples can be found in a file that is attached:
 
@@ -11,6 +14,7 @@ The information obtained with this tool can be applied in many areas, a small ex
 * Vulnerabilities.
 And so much more.
 ****
+
 # Shodan Eye Ethical Hacking Tool Release
 Before we start the year 2020, today there is a new big release ..! 
 Please note, if you have already installed Shodan Eye on your computer, then it is worthwhile to read it carefully. Of course, even if you don’t know this Shodan tool yet.
@@ -19,20 +23,25 @@ Please note, if you have already installed Shodan Eye on your computer, then it 
 * Save the output of the Shodan Eye results
 The entry of the Shodan password is no longer visible.
 
+
 # Shodan 
 Is a search engine that lets the user find specific types of computers (webcams, routers, servers, etc.) connected to the internet using a variety of filters. Some have also described it as a search engine of service banners, which are metadata that the server sends back to the client.
+
 
 ***What is the difference between Google or another search engine:***
 The most fundamental difference is that Shodan Eye crawls on the internet, Google on the World Wide Web. However, the devices that support the World Wide Web are only a small part of what is actually connected to the Internet.
 ****
+
 ## Shodan
 For additional data gathering, you can enter a Shodan API key when prompted.
 A Shodan API key can be found here: https://account.shodan.io/register
 ****
+
 ## A collection of search queries for Shodan is attached:
 Shodan Dorks ... The Internet of Sh*t
 * https://github.com/BullsEye0/shodan-eye/blob/master/Shodan_Dorks_The_Internet_of_Sh*t.txt
 ****
+
 ## I also want to make you aware that:
 * This was written for educational purpose and pentest only.
 * The author will not be responsible for any damage ..!
@@ -53,8 +62,6 @@ causing malicious or damaging attacks.
 [Link to: Shodan Eye on YouTube](https://youtu.be/fOqmlOLiMsQ "Shodan Eye on YouTube")
 
 ****
-
-
 
 # Install Shodan Eye on Linux:
 ****
