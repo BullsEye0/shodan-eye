@@ -54,7 +54,7 @@ causing malicious or damaging attacks.
 
 ![Screenshot](img/ShodanEyeB.png)
 ****
-![Screenshot](img/banner2.png)
+![Screenshot](img/ShodanEye2.png)
 ****
 ![Screenshot](img/ShodanEye3.png)
 ****
