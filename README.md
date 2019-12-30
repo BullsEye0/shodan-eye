@@ -56,7 +56,7 @@ causing malicious or damaging attacks.
 ****
 ![Screenshot](img/banner2.png)
 ****
-![Screenshot](img/banner3.png)
+![Screenshot](img/Shodan Eye3.png)
 ****
 ## Video Shodan Eye on YouTube:
 [Link to: Shodan Eye on YouTube](https://youtu.be/fOqmlOLiMsQ "Shodan Eye on YouTube")
