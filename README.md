@@ -1,13 +1,16 @@
 # Shodan Eye
 This tool collects all information about all devices that are directly connected to the internet with the specified keywords that you enter. This way you get a complete overview.
 
+Here you can read the latest article about Shodan Eye:
+https://hackingpassion.com/shodan-eye-ethical-hacking-tool-release/
+
 The types of devices that are indexed can vary enormously: from small desktops, refrigerators to nuclear power plants and everything in between. You can find everything using "your own" specified keywords. Examples can be found in a file that is attached:
 
 The information obtained with this tool can be applied in many areas, a small example:
 * Network security, keep an eye on all devices in your company or at home that are confronted with internet.
 * Vulnerabilities.
 And so much more.
-
+****
 # Shodan Eye Ethical Hacking Tool Release
 Before we start the year 2020, today there is a new big release ..! 
 Please note, if you have already installed Shodan Eye on your computer, then it is worthwhile to read it carefully. Of course, even if you don’t know this Shodan tool yet.
