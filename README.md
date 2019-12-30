@@ -8,6 +8,14 @@ The information obtained with this tool can be applied in many areas, a small ex
 * Vulnerabilities.
 And so much more.
 
+# Shodan Eye Ethical Hacking Tool Release
+Before we start the year 2020, today there is a new big release ..! 
+Please note, if you have already installed Shodan Eye on your computer, then it is worthwhile to read it carefully. Of course, even if you don’t know this Shodan tool yet.
+
+* Shodan Eye goes from python 2 to python 3
+* Save the output of the Shodan Eye results
+The entry of the Shodan password is no longer visible.
+
 # Shodan 
 Is a search engine that lets the user find specific types of computers (webcams, routers, servers, etc.) connected to the internet using a variety of filters. Some have also described it as a search engine of service banners, which are metadata that the server sends back to the client.
 
@@ -42,23 +50,20 @@ causing malicious or damaging attacks.
 [Link to: Shodan Eye on YouTube](https://youtu.be/fOqmlOLiMsQ "Shodan Eye on YouTube")
 
 ****
-## Python:
-
-I made this script in python 2.7 
-(Later I can - I will change this to python 3) But for now I think python 2 is nicer, more beautiful and better. "It's kind of personal" 😃
 
 
-## Install Shodan Eye on Linux:
 
+# Install Shodan Eye on Linux:
+****
 git clone https://github.com/BullsEye0/shodan-eye.git
 
 cd shodan-eye
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+****
 
-
-## Use:
-python shodan-eye
+# How to use Shodan Eye
+python3 shodan-eye.py
 
 (You will be asked for a Shodan API key)
 
