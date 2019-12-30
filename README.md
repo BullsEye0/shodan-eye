@@ -21,7 +21,7 @@ Please note, if you have already installed Shodan Eye on your computer, then it 
 
 * Shodan Eye goes from python 2 to python 3
 * Save the output of the Shodan Eye results
-The entry of the Shodan password is no longer visible.
+* The entry of the Shodan password is no longer visible.
 
 
 # Shodan 
