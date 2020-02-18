@@ -73,7 +73,7 @@ pip3 install -r requirements.txt
 ****
 
 # How to use Shodan Eye
-python3 shodan-eye.py
+python3 shodan_eye.py
 
 (You will be asked for a Shodan API key)
 
