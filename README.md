@@ -7,6 +7,7 @@ Here you can read the latest article about Shodan Eye:
 https://hackingpassion.com/shodan-eye-ethical-hacking-tool-release/
 ****
 Article Install Shodan Eye on Termux can be found here:
+
 https://hackingpassion.com/android-hacking-with-termux/#INSTALL_SHODAN_EYE
 ****
 
