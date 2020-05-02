@@ -6,6 +6,9 @@ Here you can read the latest article about Shodan Eye:
 
 https://hackingpassion.com/shodan-eye-ethical-hacking-tool-release/
 ****
+Article Install Shodan Eye on Termux can be found here:
+https://hackingpassion.com/android-hacking-with-termux/#INSTALL_SHODAN_EYE
+****
 
 The types of devices that are indexed can vary enormously: from small desktops, refrigerators to nuclear power plants and everything in between. You can find everything using "your own" specified keywords. Examples can be found in a file that is attached:
 
@@ -64,6 +67,23 @@ causing malicious or damaging attacks.
 ****
 
 # Install Shodan Eye on Linux:
+****
+
+Shodan Eye has tested it so far on:
+
+**Linux**
+Kali Linux
+Parrot Security OS
+BlackArch
+Ubuntu
+Arch-based
+Debian-based
+
+**Termux**
+**Windows**
+
+This list would be expanded
+
 ****
 git clone https://github.com/BullsEye0/shodan-eye.git
 
