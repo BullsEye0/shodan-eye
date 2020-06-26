@@ -18,13 +18,6 @@
 
 ########################################################################
 
-# A notice to all nerds and n00bs...
-# If you will copy the developer's work it will not make you a hacker..!
-# Respect all developers, we doing this because it's fun...
-
-########################################################################
-
-
 import os
 import random
 import shodan
@@ -51,16 +44,13 @@ banner1 = ("""
 \033[1;m
             \033[1;31mShodan Eye v1.3.0\033[0m
 
-    ✓ The author is not responsible for any damage, misuse of the information.
-    ✓ Shodan Eye shall only be used to expand knowledge and not for
-      causing malicious or damaging attacks.
-    ✓ Just remember, Performing any hacks without written permission is illegal ..!
+    ✓ The author will not be responsible for any damage caused or any laws broken by the end user, or misuse of information.
+    ✓ Just remember, initiating or carrying out any breaches of privacy or data without written permission is illegal.
 
-            Author:  Jolanda de Koff Bulls Eye
+            Author:  Jolanda de Koff Bulls Eye (Audited by Jonathan A Kurtz)
             Github:  https://github.com/BullsEye0
             Website: https://HackingPassion.com
 
-            \033[1;31mHi there, Shall we play a game..?\033[0m 😃
         """)
 
 banner2 = ("""
@@ -78,24 +68,21 @@ banner2 = ("""
                               ▀
 \033[1;m
         \033[1;31mShodan Eye v1.3.0\033[0m
+     
+     ✓ The author will not be responsible for any damage caused or any laws broken by the end user, or misuse of information.
+     ✓ Just remember, initiating or carrying out any breaches of privacy or data without written permission is illegal.
+ 
+             Author:  Jolanda de Koff Bulls Eye (Audited by Jonathan A Kurtz)
+             Github:  https://github.com/BullsEye0
+             Website: https://HackingPassion.com
 
-    ✓ The author is not responsible for any damage, misuse of the information.
-    ✓ Shodan Eye shall only be used to expand knowledge and not for
-      causing malicious or damaging attacks.
-    ✓ Just remember, Performing any hacks without written permission is illegal ..!
-
-            Author:  Jolanda de Koff Bulls Eye
-            Github:  https://github.com/BullsEye0
-            Website: https://HackingPassion.com
-
-            \033[1;31mHi there, Shall we play a game..?\033[0m 😃
         """)
 
 choi = (banner1, banner2)
 print (random.choice(choi))
 time.sleep(0.5)
 
-data = input("\n[+] \033[34mDo you like to save the output in a file? \033[0m(Y/N) ").strip()
+data = input("\n[+] \033[34mWould you like to save output to a file? \033[0m(Y/N) ").strip()
 l0g = ("")
 
 
@@ -105,12 +92,12 @@ def logger(data):
     file.close()
 
 
-if data.startswith("y" or "Y"):
-    l0g = input("\n[~] \033[34mGive the file a name: \033[0m ")
+if data.lower().startswith("y"):
+    l0g = input("\n[~] \033[34mDesired file name: \033[0m ")
     print ("\n" + "  " + "»" * 78 + "\n")
     logger(data)
 else:
-    print ("[!] \033[34mSaving is skipped\033[0m")
+    print ("[!] \033[34mSaving skipped\033[0m")
     print ("\n" + "  " + "»" * 78 + "\n")
 
 
@@ -128,18 +115,18 @@ def showdam():
         file.close()
 
     api = shodan.Shodan(shodan_api_key)
-    time.sleep(0.4)
+    time.sleep(0.5)
 
-    limit = 888  # Just a number
+    limit = 1000  # Just a number
     counter = 1
 
     try:
         print ("[~] \033[34mChecking Shodan.io API Key... \033[0m")
         api.search("b00m")
-        print ("[✓] \033[34mAPI Key Authentication:\033[0m SUCCESS..!")
+        print ("[✓] \033[34mAPI Key Authentication:\033[0m SUCCESS!")
         time.sleep(0.5)
         b00m = input("\n[+] \033[34mEnter your keyword(s):\033[0m ")
-        counter = counter + 1
+        counter += 1
         for banner in api.search_cursor(b00m):
             print ("[+] \033[1;31mIP: \033[1;m" + (banner["ip_str"]))
             print ("[+] \033[1;31mPort: \033[1;m" + str(banner["port"]))
@@ -154,7 +141,6 @@ def showdam():
 
             data = ("\nIP: " + banner["ip_str"]) + ("\nPort: " + str(banner["port"])) + ("\nOrganisation: " + str(banner["org"])) + ("\nLocation: " + str(banner["location"])) + ("\nLayer: " + banner["transport"]) + ("\nDomains: " + str(banner["domains"])) + ("\nHostnames: " + str(banner["hostnames"])) + ("\nData\n" + banner["data"])
             logger(data)
-            time.sleep(0.1)
             print ("\n" + "  " + "»" * 78 + "\n")
 
             counter += 1
@@ -163,16 +149,14 @@ def showdam():
 
     except KeyboardInterrupt:
             print ("\n")
-            print ("\033[1;91m[!] User Interruption Detected..!\033[0")
-            time.sleep(0.5)
-            print ("\n\n\t\033[1;91m[!] I like to See Ya, Hacking \033[0m😃\n\n")
-            time.sleep(0.5)
+            print ("\033[1;91m[!] User Interrupt Detected: Exiting\033[0")
+            time.sleep(0.1)
             sys.exit(1)
 
     except shodan.APIError as oeps:
             print ("[✘] \033[1;31mError: %s \033[0m" % (oeps))
             sha_api = input("[*] \033[34mWould you like to change the API Key? <Y/N>:\033[0m ").lower()
-            if sha_api.startswith("y" or "Y"):
+            if sha_api.lower().startswith("y"):
                 file = open("api.txt", "w")
                 os.system("stty -echo")
                 shodan_api_key = input("[✓] \033[34mPlease enter valid Shodan.io API Key:\033[0m ")
@@ -180,15 +164,13 @@ def showdam():
                 file.write(shodan_api_key)
                 print ("\n[~] \033[34mFile written: ./api.txt\033[0m")
                 file.close()
-                print ("[~] \033[34mRestarting the Platform, Please wait...\033[0m \n")
-                time.sleep(1)
+                print ("[~] \033[34mRestarting, please wait...\033[0m \n")
                 showdam()
             else:
                 print ("")
-                print ("[•] Exiting Platform... \033[1;91m[!] I like to See Ya, Hacking \033[0m😃\n\n")
+                print ("[•] Exiting...")
                 sys.exit()
 
-    print ("\n\n\tShodan Eye \033[1;91mI like to See Ya, Hacking \033[0m😃\n\n")
 
 
 # =====# Main #===== #

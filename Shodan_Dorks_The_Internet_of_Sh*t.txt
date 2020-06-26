@@ -3,13 +3,10 @@ Shodan Dorks ... The Internet of Sh*t
 
 A small collection of search queries for Shodan
 
-This was written for educational purpose and pentest only.
-The author will be not responsible for any damage..!
+This was written for educational and penetration testing purposes only.
+The author will be not responsible for any damage or laws broken by the end user.
 The author of this tool is not responsible for any misuse of the information.
-You shall not misuse the information to gain unauthorized access.
-This information shall only be used to expand knowledge and not for
-causing malicious or damaging attacks.
-Performing any hacks without written permission is illegal..!!!
+Initiating or carrying out breaches of privacy or data  without written permission is illegal.
 
 
 Chromecasts / Smart TVs →
@@ -86,5 +83,3 @@ port:17 product:"Windows qotd"
 
 Find a Job Doing This..! →
 "X-Recruiting:"
-
-
