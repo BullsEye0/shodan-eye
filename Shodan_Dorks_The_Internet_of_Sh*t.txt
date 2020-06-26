@@ -26,7 +26,7 @@ NETSurveillance uc-httpd
 
 
 DICOM Medical X-Ray Machines →
-Secured by default, thankfully, but these 1,700 + machines still have no business being on the internet..!
+Secured by default, thankfully, but these 1,700 + machines still have no business being on the internet!
 DICOM Server Response
 
 
@@ -39,7 +39,7 @@ Electric Vehicle Chargers mag_right →
 
 
 Remote Desktop →
-Unprotected..!
+Unprotected!
 "authentication disabled" "RFB 003.008"
 
 
@@ -49,7 +49,7 @@ Windows RDP →
 
 
 Lantronix ethernet adapter's →
-admin interface open, NO PASSWORD required.
+admin interface open, NO PASSWORD REQUIRED.
 Press Enter Setup Mode port:9999
 
 
@@ -67,7 +67,7 @@ A tangential result of Google’s dumb fractured update approach.
 
 
 Xerox Copiers/Printers →
-With root acces..!
+With root access!
 ssl:"Xerox Generic Root"
 
 
@@ -81,5 +81,5 @@ Port 17 (RFC 865) has a bizarre history…
 port:17 product:"Windows qotd"
 
 
-Find a Job Doing This..! →
+Find a Job Doing This! →
 "X-Recruiting:"

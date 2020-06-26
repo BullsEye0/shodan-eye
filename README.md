@@ -38,7 +38,7 @@ For additional data gathering, you can enter a Shodan API key when prompted.
 A Shodan API key can be found here: https://account.shodan.io/register
 ****
 
-## I also want to make you aware that:
+## You should also know: 
 * This was written for educational and penetration testing purposes only.
 * The author will not be responsible for any damage caused or any laws broken by the end user.
 * The author of this tool is not responsible for any misuse of the information.
