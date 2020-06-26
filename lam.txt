@@ -1,0 +1,2327 @@
+y
+IP: 162.219.216.25
+Port: 5060
+Organisation: Airespring
+Location: {'city': 'Exton', 'region_code': 'PA', 'area_code': None, 'longitude': -75.6472, 'country_code3': None, 'latitude': 40.0443, 'postal_code': None, 'dma_code': 504, 'country_code': 'US', 'country_name': 'United States'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 501 Not Implemented
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=51fd0c90-7f000001-13c4-4a22c-51252ebe-4a22c
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=231.4.147.227;rport=26810;branch=foo
+Content-Length: 0
+
+
+IP: 92.117.227.70
+Port: 5060
+Organisation: Versatel Deutschland
+Location: {'city': 'Nuremberg', 'region_code': 'BY', 'area_code': None, 'longitude': 11.0384, 'country_code3': None, 'latitude': 49.4358, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=135.88.180.115
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=CCE4E496CF79CF1E
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 187.226.152.126
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Mexico City', 'region_code': 'CMX', 'area_code': None, 'longitude': -99.1438, 'country_code3': None, 'latitude': 19.4357, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-226-152-126-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553bf-29672d4e
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 189.142.121.254
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Mineral de la Reforma', 'region_code': 'HID', 'area_code': None, 'longitude': -98.6977, 'country_code3': None, 'latitude': 20.1239, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-142-121-254-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=76.248.183.127
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=2100300915
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, SUBSCRIBE, NOTIFY, INFO, UPDATE, PRACK
+Accept: application/sdp
+User-Agent: PingCommunication-RG-V7610I1
+Content-Length: 0
+
+
+IP: 95.179.234.248
+Port: 5060
+Organisation: Choopa, LLC
+Location: {'city': 'London', 'region_code': 'ENG', 'area_code': None, 'longitude': -0.0638, 'country_code3': None, 'latitude': 51.5128, 'postal_code': None, 'dma_code': None, 'country_code': 'GB', 'country_name': 'United Kingdom'}
+Layer: udp
+Domains: ['vultr.com']
+Hostnames: ['95.179.234.248.vultr.com']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=34.46.27.228
+Contact: <sip:95.179.234.248:5060>
+To: <sip:nm2@nm2>;tag=ca7bd87b
+From: <sip:nm@nm>;tag=root
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Accept: application/sdp
+Accept-Language: en
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REGISTER, SUBSCRIBE, NOTIFY, REFER, INFO, MESSAGE, UPDATE
+Supported: replaces, timer
+Allow-Events: presence, message-summary, dialog, call-info, line-seize
+Content-Length: 0
+
+
+IP: 62.138.11.83
+Port: 21
+Organisation: Host Europe GmbH
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 9.491, 'country_code3': None, 'latitude': 51.2993, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: tcp
+Domains: ['startdedicated.net']
+Hostnames: ['astra5252.startdedicated.net']
+Data
+220 ProFTPD Server (ProFTPD) [62.138.11.83]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG en-US.UTF-8*
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 189.225.73.29
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Ciudad Lopez Mateos', 'region_code': 'MEX', 'area_code': None, 'longitude': -99.2166, 'country_code3': None, 'latitude': 19.5616, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-225-73-29-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553ab-5955d1aa
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 79.31.127.150
+Port: 5060
+Organisation: Telecom Italia
+Location: {'city': 'Genoa', 'region_code': '42', 'area_code': None, 'longitude': 8.9448, 'country_code3': None, 'latitude': 44.4028, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['telecomitalia.it']
+Hostnames: ['host-79-31-127-150.retail.telecomitalia.it']
+Data
+SIP/2.0 500 Server Internal Error
+From: <sip:nm@nm;user=phone>;tag=root
+To: <sip:nm2@nm2;user=phone>;tag=1a5c3a0-95875a7b-dc62777e-683f5200-7883af7f-D8C2CC
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=183.75.244.179;rport=26810;branch=foo
+Supported: replaces,100rel
+Allow: INVITE, ACK, BYE, REFER, NOTIFY, CANCEL, OPTIONS, INFO, UPDATE, PRACK
+User-Agent: Technicolor / VANT-6 / AGTOT_2.1.3 / AGTOT_2.1.3
+X-Serialnumber: CP1810TAGKT
+Accept: application/dtmf-relay, x-application/dtmf-relay, application/sdp
+Accept-Contact: *;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Content-Length: 0
+
+
+IP: 201.102.67.165
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Solidaridad Nacional', 'region_code': 'CMX', 'area_code': None, 'longitude': -99.1513, 'country_code3': None, 'latitude': 19.5343, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-201-102-67-165-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553bc-5fc43a45
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 118.155.213.21
+Port: 21
+Organisation: au one net
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 139.69, 'country_code3': None, 'latitude': 35.69, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 ProFTPD Server (ProFTPD) [118.155.213.21]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@127.0.0.1
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG en-US*
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 79.255.175.175
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Bernau bei Berlin', 'region_code': 'BB', 'area_code': None, 'longitude': 13.5965, 'country_code3': None, 'latitude': 52.6821, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p4fffafaf.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=21.211.136.122
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=21A61C16914CC721
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 93.207.98.249
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Passau', 'region_code': 'BY', 'area_code': None, 'longitude': 13.4497, 'country_code3': None, 'latitude': 48.5759, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5dcf62f9.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=148.93.60.181
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=C2700E67023CBD60
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 79.45.65.200
+Port: 5060
+Organisation: Telecom Italia
+Location: {'city': 'Novara', 'region_code': '21', 'area_code': None, 'longitude': 8.6161, 'country_code3': None, 'latitude': 45.4458, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['telecomitalia.it']
+Hostnames: ['host-79-45-65-200.retail.telecomitalia.it']
+Data
+SIP/2.0 500 Server Internal Error
+From: <sip:nm@nm;user=phone>;tag=root
+To: <sip:nm2@nm2;user=phone>;tag=19e9290-c827835f-ec5bde5-64bca7ad-bebd1d1-77FD18
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=79.127.51.0;rport=26810;branch=foo
+Supported: replaces,100rel
+Allow: INVITE, ACK, BYE, REFER, NOTIFY, CANCEL, OPTIONS, INFO, UPDATE, PRACK
+User-Agent: Technicolor / VANT-6 / AGTOT_2.1.3 / AGTOT_2.1.3
+X-Serialnumber: CP1629TAFAD
+Accept: application/dtmf-relay, x-application/dtmf-relay, application/sdp
+Accept-Contact: *;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Content-Length: 0
+
+
+IP: 189.236.170.158
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Mexico City', 'region_code': 'CMX', 'area_code': None, 'longitude': -99.1438, 'country_code3': None, 'latitude': 19.4357, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-236-170-158-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef55396-166f2d49
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 159.203.67.32
+Port: 21
+Organisation: Digital Ocean
+Location: {'city': 'Clifton', 'region_code': 'NJ', 'area_code': None, 'longitude': -74.1403, 'country_code3': None, 'latitude': 40.8364, 'postal_code': None, 'dma_code': 501, 'country_code': 'US', 'country_name': 'United States'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 ProFTPD 1.3.5rc3 Server (Sentora FTP Server) [::ffff:159.203.67.32]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+ PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@localhost
+211-Features:
+ MDTM
+ TVFS
+ MFMT
+ SIZE
+ LANG en-US.UTF-8;en-US*
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ EPRT
+ EPSV
+211 End
+IP: 201.102.111.72
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Santa Maria Chimalhuacan', 'region_code': 'MEX', 'area_code': None, 'longitude': -98.9446, 'country_code3': None, 'latitude': 19.4189, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-201-102-111-72-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553aa-60067c67
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 182.93.123.98
+Port: 21
+Organisation: Otsuka Corp.
+Location: {'city': 'Kanagawa', 'region_code': '14', 'area_code': None, 'longitude': 139.632, 'country_code3': None, 'latitude': 35.4706, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: tcp
+Domains: ['alpha-prm.jp']
+Hostnames: ['websvr182-93-123-98.alpha-prm.jp']
+Data
+220 FTP Server ready.
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH    CCC*    CONF*   ENC*    MIC*    
+ PBSZ    PROT    TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    
+214 Direct comments to root@localhost
+211-Features:
+ MDTM
+ AUTH TLS
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+211 End
+IP: 217.149.1.23
+Port: 21
+Organisation: Filnet, Serveis i comunicacions, SL
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': -3.684, 'country_code3': None, 'latitude': 40.4172, 'postal_code': None, 'dma_code': None, 'country_code': 'ES', 'country_name': 'Spain'}
+Layer: tcp
+Domains: ['conexionsc.com']
+Hostnames: ['conexionsc.com']
+Data
+220 ProFTPD Server (ProFTPD) [217.149.1.23]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG es-ES.UTF-8*
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 193.114.96.96
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Brisbane', 'region_code': 'QLD', 'area_code': None, 'longitude': 153.0215, 'country_code3': None, 'latitude': -27.4732, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['193-114-96-96.static.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=64.92.224.178;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   383
+
+v=0
+o=- 3802124911 3802124911 IN IP4 193.114.96.96
+s=pjmedia
+c=IN IP4 193.114.96.96
+t=0 0
+m=audio 60478 RTP/AVP 9 110 18 0 8 2 96
+a=rtcp:60479 IN IP4 193.114.96.96
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:2 G721/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 203.220.81.234
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Adelaide', 'region_code': 'SA', 'area_code': None, 'longitude': 138.6005, 'country_code3': None, 'latitude': -34.9274, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['203-220-81-234.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=237.117.67.145;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   386
+
+v=0
+o=- 3802124864 3802124864 IN IP4 203.220.81.234
+s=pjmedia
+c=IN IP4 203.220.81.234
+t=0 0
+m=audio 60030 RTP/AVP 0 8 9 110 2 18 96
+a=rtcp:60031 IN IP4 203.220.81.234
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:2 G721/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 79.203.212.168
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Offenburg', 'region_code': 'BW', 'area_code': None, 'longitude': 7.9648, 'country_code3': None, 'latitude': 48.464, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p4fcbd4a8.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=211.54.172.180
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=B213C07285484E64
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 113.35.212.254
+Port: 5060
+Organisation: ARTERIA Networks Corporation
+Location: {'city': 'Sumida', 'region_code': '13', 'area_code': None, 'longitude': 139.8015, 'country_code3': None, 'latitude': 35.7107, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: udp
+Domains: ['ucom.ne.jp']
+Hostnames: ['113x35x212x254.ap113.ftth.ucom.ne.jp']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=101.214.108.178
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=1338155396
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Supported: replaces
+Allow: INVITE, ACK, CANCEL, BYE, OPTIONS, PRACK, REFER
+Accept: application/sdp
+Accept-Encoding: identity
+Accept-Language: en
+Content-Length: 0
+
+
+IP: 93.133.62.107
+Port: 5060
+Organisation: O2 Deutschland
+Location: {'city': 'Essen', 'region_code': 'NW', 'area_code': None, 'longitude': 7.0122, 'country_code3': None, 'latitude': 51.4476, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['telefonica.de']
+Hostnames: ['x5d853e6b.dyn.telefonica.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=183.29.228.127
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=423FC118EA9B4300
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 189.238.118.56
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Heroica Caborca', 'region_code': 'SON', 'area_code': None, 'longitude': -112.3562, 'country_code3': None, 'latitude': 30.697, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-238-118-56-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=248.8.228.241
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=509023362
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, SUBSCRIBE, NOTIFY, INFO, UPDATE, PRACK
+Accept: application/sdp
+User-Agent: PingCommunication-RG-V7610I1
+Content-Length: 0
+
+
+IP: 164.46.35.223
+Port: 21
+Organisation: IDC Frontier
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 139.69, 'country_code3': None, 'latitude': 35.69, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: tcp
+Domains: ['znlc.jp']
+Hostnames: ['blue-lutetium4007.znlc.jp']
+Data
+220 Server Ready
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH    CCC*    CONF*   ENC*    MIC*    
+ PBSZ    PROT    TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+ CCC
+ PBSZ
+ AUTH TLS
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ EPRT
+ EPSV
+ MDTM
+ SSCN
+ TVFS
+ MFMT
+ SIZE
+ PROT
+ LANG it-IT;en-US;ru-RU;es-ES;zh-CN;ja-JP;fr-FR;bg-BG;zh-TW;ko-KR
+211 End
+IP: 136.243.120.22
+Port: 21
+Organisation: Hetzner Online GmbH
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 9.491, 'country_code3': None, 'latitude': 51.2993, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: tcp
+Domains: ['your-server.de']
+Hostnames: ['static.22.120.243.136.clients.your-server.de']
+Data
+220 ProFTPD 1.3.5 Server (Debian) [136.243.120.22]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+214-EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+214-NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+214-PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+214-APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+214-NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@neo3.clickforknowledge.com
+211-Features:
+ TVFS
+ SITE COPY
+ MFMT
+ LANG en-US.UTF-8*;en-US
+ SIZE
+ SITE MKDIR
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ EPRT
+ SITE SYMLINK
+ EPSV
+ SITE UTIME
+ MDTM
+ SITE RMDIR
+211 End
+IP: 98.158.78.77
+Port: 21
+Organisation: Watch Communications
+Location: {'city': 'Auburn', 'region_code': 'IN', 'area_code': None, 'longitude': -85.0497, 'country_code3': None, 'latitude': 41.3569, 'postal_code': None, 'dma_code': 509, 'country_code': 'US', 'country_name': 'United States'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 ProFTPD 1.3.5 Server (Debian) [::ffff:98.158.78.77]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+214-CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+214-EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+214-XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+214-NOOP    FEAT    OPTS    AUTH    CCC*    CONF*   ENC*    MIC*    
+214-PBSZ    PROT    TYPE    STRU    MODE    RETR    STOR    STOU    
+214-APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+214-NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@virtualmin5.corpsite.com
+211-Features:
+ SITE COPY
+ MFMT
+ LANG en-US.UTF-8*;en-US
+ SIZE
+ PROT
+ CCC
+ SITE MKDIR
+ PBSZ
+ AUTH TLS
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ EPRT
+ SITE SYMLINK
+ EPSV
+ SITE UTIME
+ MDTM
+ SITE RMDIR
+ SSCN
+ TVFS
+211 End
+IP: 189.141.80.223
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Tepic', 'region_code': 'NAY', 'area_code': None, 'longitude': -104.9998, 'country_code3': None, 'latitude': 21.6006, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-141-80-223-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=245.174.126.82
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=143611906
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, SUBSCRIBE, NOTIFY, INFO, UPDATE, PRACK
+Accept: application/sdp
+User-Agent: PingCommunication-RG-V7610I1
+Content-Length: 0
+
+
+IP: 203.220.139.175
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Adelaide', 'region_code': 'SA', 'area_code': None, 'longitude': 138.6005, 'country_code3': None, 'latitude': -34.9274, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=224.156.106.188;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   389
+
+v=0
+o=- 3802124820 3802124820 IN IP4 203.220.139.175
+s=pjmedia
+c=IN IP4 203.220.139.175
+t=0 0
+m=audio 60004 RTP/AVP 9 110 18 0 8 2 96
+a=rtcp:60005 IN IP4 203.220.139.175
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:2 G721/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 31.154.7.67
+Port: 21
+Organisation: kibbutz dan
+Location: {'city': 'Dan', 'region_code': 'Z', 'area_code': None, 'longitude': 35.6564, 'country_code3': None, 'latitude': 33.2369, 'postal_code': None, 'dma_code': None, 'country_code': 'IL', 'country_name': 'Israel'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 ProFTPD 1.3.3 Server (Storage) [31.154.7.67]
+230 Anonymous access granted, restrictions apply
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+ PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@backup
+211-Features:
+ MDTM
+ MFMT
+ TVFS
+ MFF modify;UNIX.group;UNIX.mode;
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ REST STREAM
+ SIZE
+211 End
+IP: 45.58.208.154
+Port: 5060
+Organisation: Fibernetics Corporation
+Location: {'city': 'Montreal', 'region_code': 'QC', 'area_code': None, 'longitude': -73.5848, 'country_code3': None, 'latitude': 45.4995, 'postal_code': None, 'dma_code': None, 'country_code': 'CA', 'country_name': 'Canada'}
+Layer: udp
+Domains: ['295.ca']
+Hostnames: ['host-45-58-208-154.dyn.295.ca']
+Data
+SIP/2.0 404 Not Found
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=98dae0-2d3ad09a-13c4-50029-98a34-71e6e9af-98a34
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=90.1.77.83;rport=26810;branch=foo
+Supported: replaces,100rel,timer
+Accept: application/sdp
+Allow: INVITE,ACK,CANCEL,BYE,OPTIONS,REFER,INFO,NOTIFY,PRACK,MESSAGE
+Content-Length: 0
+
+
+IP: 46.93.85.142
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Nuremberg', 'region_code': 'BY', 'area_code': None, 'longitude': 11.0797, 'country_code3': None, 'latitude': 49.4419, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p2e5d558e.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=46.103.127.113
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=6C789432513FAB72
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 187.149.48.41
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Culiacán', 'region_code': 'SIN', 'area_code': None, 'longitude': -107.2667, 'country_code3': None, 'latitude': 24.6515, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-149-48-41-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=175.27.205.191
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=2059104134
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, SUBSCRIBE, NOTIFY, INFO, UPDATE, PRACK
+Accept: application/sdp
+User-Agent: PingCommunication-RG-V7610I1
+Content-Length: 0
+
+
+IP: 203.221.103.48
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Canberra', 'region_code': 'ACT', 'area_code': None, 'longitude': 149.1283, 'country_code3': None, 'latitude': -35.2828, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['203-221-103-48.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=137.247.193.174;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   386
+
+v=0
+o=- 3802124838 3802124838 IN IP4 203.221.103.48
+s=pjmedia
+c=IN IP4 203.221.103.48
+t=0 0
+m=audio 60100 RTP/AVP 9 110 18 0 8 2 96
+a=rtcp:60101 IN IP4 203.221.103.48
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:18 G729/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:2 G721/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 79.243.61.51
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Lam', 'region_code': 'BY', 'area_code': None, 'longitude': 13.0488, 'country_code3': None, 'latitude': 49.1936, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p4ff33d33.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=89.145.149.60
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=D811608D5D55BD0E
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 91.39.115.101
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Bayreuth', 'region_code': 'BY', 'area_code': None, 'longitude': 11.5592, 'country_code3': None, 'latitude': 49.9431, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5b277365.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=49.62.65.53
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=66EFCB78C99F1C6D
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 189.225.79.131
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Ciudad Lopez Mateos', 'region_code': 'MEX', 'area_code': None, 'longitude': -99.2166, 'country_code3': None, 'latitude': 19.5616, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-225-79-131-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef55386-669b82cb
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 105.246.15.7
+Port: 5060
+Organisation: Vodacom Business
+Location: {'city': 'Krugersdorp', 'region_code': 'GP', 'area_code': None, 'longitude': 27.768, 'country_code3': None, 'latitude': -26.0977, 'postal_code': None, 'dma_code': None, 'country_code': 'ZA', 'country_name': 'South Africa'}
+Layer: udp
+Domains: ['vodacom.co.za']
+Hostnames: ['vc-gp-n-105-246-15-7.umts.vodacom.co.za']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm:5060;branch=foo;received=213.201.98.60;rport=26810
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553ae-244619e4
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Accept: multipart/mixed,application/sdp,application/simple-message-summary,application/broadsoft,application/dialog-info+xml,application/simservs+xml,application/vnd.etsi.aoc+xml;sv=2,application/vnd.etsi.aoc+xml;schemaversion=2,application/vnd.etsi.aoc+xml
+Allow: INVITE,ACK,CANCEL,BYE,PRACK,UPDATE,SUBSCRIBE
+Supported: 100rel,timer
+Content-Length: 0
+
+
+IP: 189.163.121.126
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Zapopan', 'region_code': 'JAL', 'area_code': None, 'longitude': -103.4121, 'country_code3': None, 'latitude': 20.6326, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-163-121-126-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553c7-7e518443
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 80.134.176.236
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Krefeld', 'region_code': 'NW', 'area_code': None, 'longitude': 6.6377, 'country_code3': None, 'latitude': 51.3603, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5086b0ec.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=44.184.63.39
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=77CD2603BCB26735
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 79.61.216.217
+Port: 5060
+Organisation: Telecom Italia Business
+Location: {'city': 'Porto Tolle', 'region_code': '34', 'area_code': None, 'longitude': 12.3242, 'country_code3': None, 'latitude': 44.9534, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['telecomitalia.it']
+Hostnames: ['host-79-61-216-217.business.telecomitalia.it']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=189.222.1.254
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=28EA7D100DBC4EDA
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 203.160.13.73
+Port: 5060
+Organisation: Buroserv Australia Pty
+Location: {'city': 'Sydney', 'region_code': 'NSW', 'area_code': None, 'longitude': 151.2002, 'country_code3': None, 'latitude': -33.8591, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['isphone.com.au']
+Hostnames: ['73.13.160.203.isphone.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=161.132.246.196;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   383
+
+v=0
+o=- 3802124828 3802124828 IN IP4 203.160.13.73
+s=pjmedia
+c=IN IP4 203.160.13.73
+t=0 0
+m=audio 60930 RTP/AVP 0 8 9 110 2 18 96
+a=rtcp:60931 IN IP4 203.160.13.73
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:2 G721/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 189.231.165.119
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Saucillo', 'region_code': 'CHH', 'area_code': None, 'longitude': -105.3429, 'country_code3': None, 'latitude': 28.0011, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-231-165-119-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553c0-f14668e
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 201.143.5.149
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Mexicali', 'region_code': 'BCN', 'area_code': None, 'longitude': -115.0741, 'country_code3': None, 'latitude': 32.5346, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['telnor.net']
+Hostnames: ['201.143.5.149.dsl.dyn.telnor.net']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=103.222.153.131
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=478324075
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, SUBSCRIBE, NOTIFY, INFO, UPDATE, PRACK
+Accept: application/sdp
+User-Agent: PingCommunication-RG-V7610I1
+Content-Length: 0
+
+
+IP: 81.39.196.230
+Port: 445
+Organisation: Telefonica de Espana
+Location: {'city': 'Godella', 'region_code': 'VC', 'area_code': None, 'longitude': -0.4167, 'country_code3': None, 'latitude': 39.5333, 'postal_code': None, 'dma_code': None, 'country_code': 'ES', 'country_name': 'Spain'}
+Layer: tcp
+Domains: ['rima-tde.net']
+Hostnames: ['230.red-81-39-196.dynamicip.rima-tde.net']
+Data
+SMB Status
+Authentication: disabled
+SMB Version: 1
+Capabilities: raw-mode,unicode,large-files,nt-smb,rpc-remote-api,nt-status,level2-oplocks,lock-and-read,nt-find,dfs,infolevel-passthru,large-readx,large-writex,extended-security
+
+Shares
+Name                 Type       Comments                                
+------------------------------------------------------------------------
+Root                 Disk       Everything - take care!                 
+Harddisk             Disk       The harddisk                            
+IPC$                 IPC        IPC Service (OpenSPA vuuno4kse network services)
+
+IP: 87.11.93.223
+Port: 5060
+Organisation: Telecom Italia
+Location: {'city': 'Catanzaro', 'region_code': '78', 'area_code': None, 'longitude': 16.6012, 'country_code3': None, 'latitude': 38.8825, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['telecomitalia.it']
+Hostnames: ['host-87-11-93-223.retail.telecomitalia.it']
+Data
+SIP/2.0 500 Server Internal Error
+From: <sip:nm@nm;user=phone>;tag=root
+To: <sip:nm2@nm2;user=phone>;tag=1a31620-c500796e-578eccf2-40b062b5-5b2783b6-BCA778
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=94.226.97.186;rport=26810;branch=foo
+Supported: replaces,timer
+Allow: INVITE, ACK, BYE, REFER, NOTIFY, CANCEL, OPTIONS, INFO, UPDATE
+User-Agent: Technicolor / VANT-6 / AGTOT_2.1.3 / AGTOT_2.1.3
+X-Serialnumber: CP1734TARJW
+Accept: application/dtmf-relay, x-application/dtmf-relay, application/sdp
+Accept-Contact: *;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Content-Length: 0
+
+
+IP: 93.237.193.170
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Lübeck', 'region_code': 'SH', 'area_code': None, 'longitude': 10.6611, 'country_code3': None, 'latitude': 53.8606, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5dedc1aa.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=167.10.132.160
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=2EA96E7E56DD4B6B
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 87.144.25.149
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Munich', 'region_code': 'BY', 'area_code': None, 'longitude': 11.585, 'country_code3': None, 'latitude': 48.1497, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p57901995.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=229.25.55.71
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=3E98FDD10EDD6CCE
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 93.223.58.78
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Duisburg', 'region_code': 'NW', 'area_code': None, 'longitude': 6.7489, 'country_code3': None, 'latitude': 51.3866, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5ddf3a4e.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=253.107.158.180
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=59419D53EC6F20CD
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 46.54.28.170
+Port: 5060
+Organisation: Melita
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 14.5833, 'country_code3': None, 'latitude': 35.8333, 'postal_code': None, 'dma_code': None, 'country_code': 'MT', 'country_name': 'Malta'}
+Layer: udp
+Domains: ['onvol.net']
+Hostnames: ['c28-170.i08-25.onvol.net']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=228.219.40.220
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=1855658073
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Allow:  INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, PRACK, OPTIONS, INFO
+Content-Length: 0
+
+
+IP: 189.172.86.251
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Mérida', 'region_code': 'YUC', 'area_code': None, 'longitude': -89.6212, 'country_code3': None, 'latitude': 20.9757, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-172-86-251-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef55395-4d4080dd
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 178.4.152.214
+Port: 5060
+Organisation: Vodafone DSL
+Location: {'city': 'Wiesbaden', 'region_code': 'HE', 'area_code': None, 'longitude': 8.2493, 'country_code3': None, 'latitude': 50.0826, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['vodafone-ip.de']
+Hostnames: ['dslb-178-004-152-214.178.004.pools.vodafone-ip.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=26.43.221.218
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=199FDA99F5A208FB
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 92.72.251.193
+Port: 5060
+Organisation: Vodafone DSL
+Location: {'city': 'Herten', 'region_code': 'NW', 'area_code': None, 'longitude': 7.1401, 'country_code3': None, 'latitude': 51.5983, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['vodafone-ip.de']
+Hostnames: ['dslb-092-072-251-193.092.072.pools.vodafone-ip.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=145.218.176.89
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=4C18AA8888383266
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: AVM FRITZ!Box Fon WLAN 7170 (UI) 29.04.88 TAL (Feb  9 2014)
+Content-Length: 0
+
+
+IP: 187.144.240.122
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Guadalajara', 'region_code': 'JAL', 'area_code': None, 'longitude': -103.348, 'country_code3': None, 'latitude': 20.638, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-144-240-122-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553e3-cf0abf
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 104.247.138.254
+Port: 53
+Organisation: Kvchosting.com LLC
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': -97.822, 'country_code3': None, 'latitude': 37.751, 'postal_code': None, 'dma_code': None, 'country_code': 'US', 'country_name': 'United States'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+PowerDNS Authoritative Server 4.1.10 (built Apr 17 2020 16:54:28 by root@rpmbuild-64-centos-7.dev.cpanel.net)
+Resolver ID: OK1150.kvchosting.com
+IP: 84.184.78.135
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Darmstadt', 'region_code': 'HE', 'area_code': None, 'longitude': 8.6573, 'country_code3': None, 'latitude': 49.9111, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p54b84e87.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=149.208.94.145
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=C33E4755807EE37B
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 187.228.106.235
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Jiutepec', 'region_code': 'MOR', 'area_code': None, 'longitude': -99.1676, 'country_code3': None, 'latitude': 18.9236, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-228-106-235-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N2647b9aba-1ca32d16
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 151.56.50.186
+Port: 5060
+Organisation: Wind Tre
+Location: {'city': 'Selargius', 'region_code': '88', 'area_code': None, 'longitude': 9.1592, 'country_code3': None, 'latitude': 39.2564, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 404 Not Found
+Call-ID:50000
+Content-Length:0
+CSeq:42 OPTIONS
+From:<sip:nm@nm>;tag=root
+To:<sip:nm2@nm2>;tag=5e-1515802400
+User-Agent:Home&Life HUB/1.1.26.00
+Via:SIP/2.0/UDP nm;rport=26810;received=253.94.127.240;branch=foo
+
+
+IP: 81.169.150.84
+Port: 21
+Organisation: Strato AG
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 9.491, 'country_code3': None, 'latitude': 51.2993, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: tcp
+Domains: ['olliswelt.net']
+Hostnames: ['olliswelt.net']
+Data
+220 ProFTPD Server (ProFTPD) [81.169.150.84]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG de-DE.UTF-8*
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 216.92.213.42
+Port: 21
+Organisation: pair Networks
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': -97.822, 'country_code3': None, 'latitude': 37.751, 'postal_code': None, 'dma_code': None, 'country_code': 'US', 'country_name': 'United States'}
+Layer: tcp
+Domains: ['dkschulmandesign.com']
+Hostnames: ['dkschulmandesign.com']
+Data
+220 ProFTPD Server (pair Networks, Inc FTP server) [216.92.213.42]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@216.92.36.15
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG it-IT;en-US;ru-RU;zh-TW;bg-BG;es-ES;zh-CN;ko-KR;fr-FR;ja-JP
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 79.231.126.42
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Lohr a. Main', 'region_code': 'BY', 'area_code': None, 'longitude': 9.5722, 'country_code3': None, 'latitude': 49.9892, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p4fe77e2a.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=170.114.169.70
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=757CBB9FC66F275C
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 91.35.127.237
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Dortmund', 'region_code': 'NW', 'area_code': None, 'longitude': 7.5984, 'country_code3': None, 'latitude': 51.5328, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5b237fed.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=78.198.138.199
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=65F66AE38AE5828A
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 91.63.253.236
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Wenden', 'region_code': 'NW', 'area_code': None, 'longitude': 7.8615, 'country_code3': None, 'latitude': 50.9671, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5b3ffdec.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=72.181.254.118
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=F7AA51ED7A0356B7
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 5.76.233.138
+Port: 5060
+Organisation: JSC Kazakhtelecom
+Location: {'city': 'Almaty', 'region_code': 'ALA', 'area_code': None, 'longitude': 76.9293, 'country_code3': None, 'latitude': 43.2638, 'postal_code': None, 'dma_code': None, 'country_code': 'KZ', 'country_name': 'Kazakhstan'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=26.17.17.187
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=34038556
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: SIP/2.0
+Content-Length: 0
+
+
+IP: 89.184.91.32
+Port: 21
+Organisation: Internet Invest Ltd.
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 30.5287, 'country_code3': None, 'latitude': 50.4522, 'postal_code': None, 'dma_code': None, 'country_code': 'UA', 'country_name': 'Ukraine'}
+Layer: tcp
+Domains: ['mirohost.net']
+Hostnames: ['es1127.mirohost.net']
+Data
+220 89.184.91.32 FTP server ready
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+ PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@89.184.91.32
+211-Features:
+ SIZE
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ LANG en-US*
+ EPRT
+ EPSV
+ MDTM
+ TVFS
+ MFMT
+211 End
+IP: 13.56.164.27
+Port: 5001
+Organisation: Amazon.com
+Location: {'city': 'San Jose', 'region_code': 'CA', 'area_code': None, 'longitude': -121.8914, 'country_code3': None, 'latitude': 37.3388, 'postal_code': None, 'dma_code': 807, 'country_code': 'US', 'country_name': 'United States'}
+Layer: tcp
+Domains: ['amazonaws.com']
+Hostnames: ['ec2-13-56-164-27.us-west-1.compute.amazonaws.com']
+Data
+HTTP/1.1 200 Ok
+Server: miniupnpd/1.0 UPnP/1.0
+Content-Type: text/xml
+Content-Length: 828
+Date: Fri, 26 Jun 2020 01:48:23
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-upnp-org:device:Basic:1</deviceType>
+		<friendlyName>Dummy</friendlyName>
+		<manufacturer>Dummy</manufacturer>
+		<modelDescription>Dummy</modelDescription>
+		<modelName>Dummy</modelName>
+		<modelNumber>Dummy</modelNumber>
+		<serviceList>
+			<service>
+				<URLBase>http://192.168.0.1:45678/</URLBase>
+				<serviceType>urn:schemas-dummy-com:service:Dummy:1</serviceType>
+				<serviceId>urn:dummy-com:serviceId:dummy1</serviceId>
+				<controlURL>/dummy</controlURL>
+				<eventSubURL>/dummy</eventSubURL>
+				<SCPDURL>/ssdp/dummy.xml</SCPDURL>
+			</service>
+		</serviceList>
+		<presentationURL>http://192.168.0.1:45678/</presentationURL>
+	</device>
+</root>
+
+
+IP: 178.7.74.67
+Port: 5060
+Organisation: Vodafone DSL
+Location: {'city': 'Dippoldiswalde', 'region_code': 'SN', 'area_code': None, 'longitude': 13.6691, 'country_code3': None, 'latitude': 50.8962, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['vodafone-ip.de']
+Hostnames: ['dslb-178-007-074-067.178.007.pools.vodafone-ip.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=223.237.223.112
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=F9B18DC2E152327E
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 103.15.216.219
+Port: 21
+Organisation: Room 704, ChinaChen Leighton Plaza
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 114.1667, 'country_code3': None, 'latitude': 22.25, 'postal_code': None, 'dma_code': None, 'country_code': 'HK', 'country_name': 'Hong Kong'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 ProFTPD Server (ProFTPD) [103.15.216.219]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@0.0.0.0
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG en-US.UTF-8*
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 185.27.142.200
+Port: 21
+Organisation: PCextreme B.V.
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 4.8995, 'country_code3': None, 'latitude': 52.3824, 'postal_code': None, 'dma_code': None, 'country_code': 'NL', 'country_name': 'Netherlands'}
+Layer: tcp
+Domains: ['anony.nl']
+Hostnames: ['srv20400.premium.anony.nl']
+Data
+220 ProFTPD 1.3.5d Server ready.
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH    CCC*    CONF*   ENC*    MIC*    
+ PBSZ    PROT    TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@185.27.142.200
+211-Features:
+ PROT
+ CCC
+ PBSZ
+ AUTH TLS
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ LANG zh-CN;en-US*;ja-JP;it-IT;bg-BG;zh-TW;es-ES;ru-RU;ko-KR;fr-FR
+ UTF8
+ EPRT
+ EPSV
+ MDTM
+ SSCN
+ TVFS
+ MFMT
+ SIZE
+211 End
+IP: 84.160.152.38
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Landshut', 'region_code': 'BY', 'area_code': None, 'longitude': 12.1383, 'country_code3': None, 'latitude': 48.5322, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p54a09826.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=72.122.144.112
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=A2AD505A00B77A8E
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 79.22.152.51
+Port: 5060
+Organisation: Telecom Italia
+Location: {'city': 'Giffoni Valle Piana', 'region_code': '72', 'area_code': None, 'longitude': 14.9425, 'country_code3': None, 'latitude': 40.7221, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['telecomitalia.it']
+Hostnames: ['host-79-22-152-51.retail.telecomitalia.it']
+Data
+SIP/2.0 500 Server Internal Error
+From: <sip:nm@nm;user=phone>;tag=root
+To: <sip:nm2@nm2;user=phone>;tag=19e9548-ac9149c3-15b9e73b-7f2590e5-9a84b85-A764D8
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Via: SIP/2.0/UDP nm;received=196.193.130.124;rport=26810;branch=foo
+Supported: replaces,100rel
+Allow: INVITE, ACK, BYE, REFER, NOTIFY, CANCEL, OPTIONS, INFO, UPDATE, PRACK
+User-Agent: Technicolor / VANT-6 / AGTOT_2.1.3 / AGTOT_2.1.3
+X-Serialnumber: CP1839RAVRJ
+Accept: application/dtmf-relay, x-application/dtmf-relay, application/sdp
+Accept-Contact: *;audio;+g.3gpp.icsi-ref="urn%3Aurn-7%3A3gpp-service.ims.icsi.mmtel"
+Content-Length: 0
+
+
+IP: 187.192.14.165
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Monterrey', 'region_code': 'NLE', 'area_code': None, 'longitude': -100.2595, 'country_code3': None, 'latitude': 25.6768, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-192-14-165-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef55394-38f17679
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 62.90.141.81
+Port: 21
+Organisation: Cellcom Group
+Location: {'city': 'Ashdod', 'region_code': 'D', 'area_code': None, 'longitude': 34.6497, 'country_code3': None, 'latitude': 31.7915, 'postal_code': None, 'dma_code': None, 'country_code': 'IL', 'country_name': 'Israel'}
+Layer: tcp
+Domains: ['interuse.com']
+Hostnames: ['server.interuse.com']
+Data
+220 ProFTPD Server ready.
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    HOST    CLNT    AUTH    CCC*    CONF*   
+ ENC*    MIC*    PBSZ    PROT    TYPE    STRU    MODE    RETR    
+ STOR    STOU    APPE    REST    ABOR    USER    PASS    ACCT*   
+ REIN*   LIST    NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@62.90.141.80
+211-Features:
+ AUTH TLS
+ CCC
+ CLNT
+ EPRT
+ EPSV
+ HOST
+ LANG zh-CN;en-US;fr-FR;bg-BG;it-IT;ru-RU;zh-TW;es-ES;ko-KR;ja-JP
+ MDTM
+ MFF modify;UNIX.group;UNIX.mode;
+ MFMT
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.groupname*;UNIX.mode*;UNIX.owner*;UNIX.ownername*;
+ PBSZ
+ PROT
+ REST STREAM
+ SIZE
+ SSCN
+ TVFS
+ UTF8
+211 End
+IP: 187.214.22.93
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Guadalajara', 'region_code': 'JAL', 'area_code': None, 'longitude': -103.348, 'country_code3': None, 'latitude': 20.638, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-187-214-22-93-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef55394-63341c06
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 87.171.245.51
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Brandis', 'region_code': 'SN', 'area_code': None, 'longitude': 12.6102, 'country_code3': None, 'latitude': 51.336, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p57abf533.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=246.52.125.86
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=268B935B8905CF38
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 93.202.134.230
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Dresden', 'region_code': 'SN', 'area_code': None, 'longitude': 13.8051, 'country_code3': None, 'latitude': 51.0783, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5dca86e6.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=116.138.131.181
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=0112337947BA214D
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 199.7.175.185
+Port: 5060
+Organisation: Junction Networks
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': -97.822, 'country_code3': None, 'latitude': 37.751, 'postal_code': None, 'dma_code': None, 'country_code': 'US', 'country_name': 'United States'}
+Layer: udp
+Domains: ['jnctn.net']
+Hostnames: ['presence-proxy0.los-angeles-1.realtime.jnctn.net']
+Data
+SIP/2.0 603 Decline
+Via: SIP/2.0/UDP nm;received=202.212.59.142;branch=foo;rport=26810
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=32437d01d246f4115a06806b6c7a7893.fe3b
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Server: OpenSIPS (1.11.8-notls (x86_64/linux))
+Content-Length: 0
+
+
+IP: 87.138.76.41
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Schlusselfeld', 'region_code': 'BY', 'area_code': None, 'longitude': 10.6187, 'country_code3': None, 'latitude': 49.7562, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p578a4c29.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=138.154.139.152
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=B1DB424A45F7E1C8
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 188.32.85.246
+Port: 5060
+Organisation: Rostelecom
+Location: {'city': 'Moscow', 'region_code': 'MOW', 'area_code': None, 'longitude': 37.6172, 'country_code3': None, 'latitude': 55.7527, 'postal_code': None, 'dma_code': None, 'country_code': 'RU', 'country_name': 'Russia'}
+Layer: udp
+Domains: ['rt.ru']
+Hostnames: ['broadband-188-32-85-246.ip.moscow.rt.ru']
+Data
+SIP/2.0 200 Ok
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 27.32.40.80
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Sydney', 'region_code': 'NSW', 'area_code': None, 'longitude': 151.2002, 'country_code3': None, 'latitude': -33.8591, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['27-32-40-80.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=84.24.180.213;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   377
+
+v=0
+o=- 3802124850 3802124850 IN IP4 27.32.40.80
+s=pjmedia
+c=IN IP4 27.32.40.80
+t=0 0
+m=audio 60608 RTP/AVP 0 8 9 110 2 18 96
+a=rtcp:60609 IN IP4 27.32.40.80
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:2 G721/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 151.20.141.37
+Port: 5060
+Organisation: Wind Tre
+Location: {'city': 'Cinisello Balsamo', 'region_code': '25', 'area_code': None, 'longitude': 9.2177, 'country_code3': None, 'latitude': 45.5585, 'postal_code': None, 'dma_code': None, 'country_code': 'IT', 'country_name': 'Italy'}
+Layer: udp
+Domains: ['wind.it']
+Hostnames: ['ppp-37-141.20-151.wind.it']
+Data
+SIP/2.0 404 Not Found
+Call-ID:50000
+Content-Length:0
+CSeq:42 OPTIONS
+From:<sip:nm@nm>;tag=root
+To:<sip:nm2@nm2>;tag=4d-158021400
+User-Agent:Home&Life HUB/1.1.26.00
+Via:SIP/2.0/UDP nm;rport=26810;received=5.113.168.205;branch=foo
+
+
+IP: 178.237.38.10
+Port: 53
+Organisation: Schuberg Philis B.V.
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 4.8995, 'country_code3': None, 'latitude': 52.3824, 'postal_code': None, 'dma_code': None, 'country_code': 'NL', 'country_name': 'Netherlands'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+PowerDNS Authoritative Server 4.1.10 (built Mar 11 2020 14:40:52 by root@rpmb-64-centos-65)
+Resolver ID: ns635.mycyberhosting.com
+IP: 93.226.198.230
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Siegburg', 'region_code': 'NW', 'area_code': None, 'longitude': 7.2077, 'country_code3': None, 'latitude': 50.8002, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5de2c6e6.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=163.227.151.161
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=0BFC0130A8BC81CB
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 199.203.217.150
+Port: 53
+Organisation: Cellcom Group
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 34.75, 'country_code3': None, 'latitude': 31.5, 'postal_code': None, 'dma_code': None, 'country_code': 'IL', 'country_name': 'Israel'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+PowerDNS Authoritative Server 4.1.10 (built Apr 17 2020 16:54:28 by root@rpmbuild-64-centos-7.dev.cpanel.net)
+Resolver ID: prsoftware.wee.co.il
+IP: 45.170.143.56
+Port: 5060
+Organisation: Globalnet Link Ltda - Me
+Location: {'city': 'Itu', 'region_code': 'SP', 'area_code': None, 'longitude': -47.2785, 'country_code3': None, 'latitude': -23.3028, 'postal_code': None, 'dma_code': None, 'country_code': 'BR', 'country_name': 'Brazil'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=185.170.220.138
+Contact: <sip:10.10.103.2:5060>
+To: <sip:nm2@nm2>;tag=d553441f
+From: <sip:nm@nm>;tag=root
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Accept: application/sdp
+Accept-Language: en
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REGISTER, SUBSCRIBE, NOTIFY, REFER, INFO, MESSAGE, UPDATE
+Supported: replaces, timer
+Allow-Events: presence, message-summary, dialog, call-info, line-seize
+Content-Length: 0
+
+
+IP: 84.143.92.217
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Remscheid', 'region_code': 'NW', 'area_code': None, 'longitude': 7.1872, 'country_code3': None, 'latitude': 51.1802, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p548f5cd9.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=205.240.100.4
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=69E5A965657A3830
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 217.9.86.142
+Port: 5060
+Organisation: Keldysh Institute of Applied Mathematics, Russian
+Location: {'city': 'Moscow', 'region_code': 'MOW', 'area_code': None, 'longitude': 37.6172, 'country_code3': None, 'latitude': 55.7527, 'postal_code': None, 'dma_code': None, 'country_code': 'RU', 'country_name': 'Russia'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=1017BFD46739
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Contact: <sip:217.9.86.142:5060>;isfocus
+Allow: INVITE,ACK,CANCEL,OPTIONS,UPDATE,INFO,SUBSCRIBE,NOTIFY,BYE,REFER
+Accept: application/sdp,application/media_control+xml,application/dtmf-relay,application/dtmf,message/sipfrag
+Content-Length: 0
+
+
+IP: 91.33.155.31
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Heiligenhafen', 'region_code': 'SH', 'area_code': None, 'longitude': 10.9862, 'country_code3': None, 'latitude': 54.3714, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5b219b1f.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=7.84.32.188
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=56115628D6FF1DEF
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 189.236.68.212
+Port: 5060
+Organisation: Telmex
+Location: {'city': 'Huixquilucan', 'region_code': 'MEX', 'area_code': None, 'longitude': -99.2664, 'country_code3': None, 'latitude': 19.4005, 'postal_code': None, 'dma_code': None, 'country_code': 'MX', 'country_name': 'Mexico'}
+Layer: udp
+Domains: ['prod-infinitum.com.mx']
+Hostnames: ['dsl-189-236-68-212-dyn.prod-infinitum.com.mx']
+Data
+SIP/2.0 403 SIP request not received from active SIP server
+Via: SIP/2.0/UDP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=b72e12N265ef553c9-5425184a
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Content-Length: 0
+
+
+IP: 84.163.177.99
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Pfarrkirchen', 'region_code': 'BY', 'area_code': None, 'longitude': 12.9381, 'country_code3': None, 'latitude': 48.432, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p54a3b163.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=195.142.19.248
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=B6302CB42B64B93A
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 220.244.43.205
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Melbourne', 'region_code': 'VIC', 'area_code': None, 'longitude': 144.9516, 'country_code3': None, 'latitude': -37.8071, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['220-244-43-205.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=123.60.199.139;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   386
+
+v=0
+o=- 3802124896 3802124896 IN IP4 220.244.43.205
+s=pjmedia
+c=IN IP4 220.244.43.205
+t=0 0
+m=audio 60332 RTP/AVP 0 8 9 110 2 18 96
+a=rtcp:60333 IN IP4 220.244.43.205
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:2 G721/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 212.53.240.90
+Port: 5060
+Organisation: Artfiles New Media GmbH
+Location: {'city': 'Leck', 'region_code': 'SH', 'area_code': None, 'longitude': 8.9833, 'country_code3': None, 'latitude': 54.7667, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['german-local.net']
+Hostnames: ['212-53-240-90.access.ham.german-local.net']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=235.127.19.145
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=F2AE1828B0248637
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 150.249.78.101
+Port: 21
+Organisation: So-net
+Location: {'city': 'Koshigaya', 'region_code': '11', 'area_code': None, 'longitude': 139.7934, 'country_code3': None, 'latitude': 35.8895, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: tcp
+Domains: []
+Hostnames: []
+Data
+220 NASFTPD Turbo station 1.3.5a Server (ProFTPD)
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+ PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@192.168.1.150
+211-Features:
+ MFMT
+ SIZE
+ MFF modify;UNIX.group;UNIX.mode;
+ REST STREAM
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ UTF8
+ LANG en-US*
+ EPRT
+ EPSV
+ MDTM
+ TVFS
+211 End
+IP: 220.244.51.53
+Port: 5060
+Organisation: TPG Internet
+Location: {'city': 'Homebush', 'region_code': 'NSW', 'area_code': None, 'longitude': 151.0827, 'country_code3': None, 'latitude': -33.8697, 'postal_code': None, 'dma_code': None, 'country_code': 'AU', 'country_name': 'Australia'}
+Layer: udp
+Domains: ['tpgi.com.au']
+Hostnames: ['220-244-51-53.tpgi.com.au']
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=107.211.57.182;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   383
+
+v=0
+o=- 3802124820 3802124820 IN IP4 220.244.51.53
+s=pjmedia
+c=IN IP4 220.244.51.53
+t=0 0
+m=audio 60826 RTP/AVP 0 8 9 110 2 18 96
+a=rtcp:60827 IN IP4 220.244.51.53
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:2 G721/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+a=rtpmap:96 telephone-event/8000
+a=fmtp:96 0-15
+
+IP: 113.42.230.178
+Port: 21
+Organisation: ARTERIA Networks Corporation
+Location: {'city': 'Nerima', 'region_code': '13', 'area_code': None, 'longitude': 139.6257, 'country_code3': None, 'latitude': 35.7715, 'postal_code': None, 'dma_code': None, 'country_code': 'JP', 'country_name': 'Japan'}
+Layer: tcp
+Domains: ['bulks.jp']
+Hostnames: ['113x42x230x178.bulks.jp']
+Data
+220 ProFTPD 1.3.3e Server (ProFTPD) [113.42.230.178]
+530 Login incorrect.
+214-The following commands are recognized (* =>'s unimplemented):
+ CWD     XCWD    CDUP    XCUP    SMNT*   QUIT    PORT    PASV    
+ EPRT    EPSV    ALLO*   RNFR    RNTO    DELE    MDTM    RMD     
+ XRMD    MKD     XMKD    PWD     XPWD    SIZE    SYST    HELP    
+ NOOP    FEAT    OPTS    AUTH*   CCC*    CONF*   ENC*    MIC*    
+ PBSZ*   PROT*   TYPE    STRU    MODE    RETR    STOR    STOU    
+ APPE    REST    ABOR    USER    PASS    ACCT*   REIN*   LIST    
+ NLST    STAT    SITE    MLSD    MLST    
+214 Direct comments to root@127.0.0.1
+211-Features:
+ MDTM
+ MFMT
+ TVFS
+ UTF8
+ MFF modify;UNIX.group;UNIX.mode;
+ MLST modify*;perm*;size*;type*;unique*;UNIX.group*;UNIX.mode*;UNIX.owner*;
+ LANG fr-FR;ru-RU;bg-BG;ja-JP;ko-KR;zh-TW;en-US*;it-IT;zh-CN
+ REST STREAM
+ SIZE
+211 End
+IP: 60.54.56.116
+Port: 5060
+Organisation: TM Net
+Location: {'city': 'Yong Peng', 'region_code': '01', 'area_code': None, 'longitude': 103.1331, 'country_code3': None, 'latitude': 1.9112, 'postal_code': None, 'dma_code': None, 'country_code': 'MY', 'country_name': 'Malaysia'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP nm;rport=26810;received=44.217.43.175;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, SUBSCRIBE, NOTIFY, REFER, OPTIONS
+Accept: application/sdp, application/simple-message-summary, message/sipfrag;version=2.0
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: message-summary, refer
+User-Agent: TP-Link SIP Stack V1.0.0
+Content-Type: application/sdp
+Content-Length:   330
+
+v=0
+o=- 3802124810 3802124810 IN IP4 60.54.56.116
+s=pjmedia
+c=IN IP4 60.54.56.116
+t=0 0
+m=audio 60098 RTP/AVP 0 8 9 2 110 18
+a=rtcp:60099 IN IP4 60.54.56.116
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/16000
+a=rtpmap:2 G726-32/8000
+a=rtpmap:110 G726-32/8000
+a=rtpmap:18 G729/8000
+a=sendrecv
+a=ptime:0
+
+IP: 204.108.193.201
+Port: 5060
+Organisation: CHS1
+Location: {'city': 'Reading', 'region_code': 'PA', 'area_code': None, 'longitude': -75.8744, 'country_code3': None, 'latitude': 40.3368, 'postal_code': None, 'dma_code': 504, 'country_code': 'US', 'country_name': 'United States'}
+Layer: udp
+Domains: []
+Hostnames: []
+Data
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP nm;rport=26810;received=135.152.196.247;branch=foo
+Call-ID: 50000
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=foo
+CSeq: 42 OPTIONS
+WWW-Authenticate: Digest realm="asterisk",nonce="1593136077/f434618b2466359b8c17f6177fab71d4",opaque="2ede838c2be4e76e",algorithm=md5,qop="auth"
+Server: Asterisk PBX 16.8.0-7.5.0.1.rl.101704.057740a
+Content-Length:  0
+
+
+IP: 91.18.146.87
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Kolbermoor', 'region_code': 'BY', 'area_code': None, 'longitude': 12.0615, 'country_code3': None, 'latitude': 47.8487, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p5b129257.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=14.255.141.155
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=9A7C16B5715FCEC3
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 79.233.47.85
+Port: 5060
+Organisation: Deutsche Telekom AG
+Location: {'city': 'Berlin', 'region_code': 'BE', 'area_code': None, 'longitude': 13.1854, 'country_code3': None, 'latitude': 52.5767, 'postal_code': None, 'dma_code': None, 'country_code': 'DE', 'country_name': 'Germany'}
+Layer: udp
+Domains: ['t-ipconnect.de']
+Hostnames: ['p4fe92f55.dip0.t-ipconnect.de']
+Data
+SIP/2.0 404 Not Found
+Via: SIP/2.0/UDP nm;branch=foo;rport=26810;received=124.49.14.109
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>;tag=71F4BA7AD5431BF2
+Call-ID: 50000
+CSeq: 42 OPTIONS
+User-Agent: FRITZ!OS
+Content-Length: 0
+
+
+IP: 217.195.196.11
+Port: 53
+Organisation: FS Veri Merkezi Internet Teknolojileri Limited Sir
+Location: {'city': None, 'region_code': None, 'area_code': None, 'longitude': 28.9948, 'country_code3': None, 'latitude': 41.0214, 'postal_code': None, 'dma_code': None, 'country_code': 'TR', 'country_name': 'Turkey'}
+Layer: udp
+Domains: ['fibersunucu.com.tr']
+Hostnames: ['static-217-195-196-11.fibersunucu.com.tr']
+Data
+PowerDNS Authoritative Server 4.1.10 (built Apr 17 2020 16:54:28 by root@rpmbuild-64-centos-7.dev.cpanel.net)
+Resolver ID: 196-23linux.webimhosting.com

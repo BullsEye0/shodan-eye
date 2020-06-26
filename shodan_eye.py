@@ -109,7 +109,7 @@ def showdam():
         file = open("api.txt", "w")
         os.system("stty -echo")
         shodan_api_key = input("[!] \033[34mPlease enter a valid Shodan API Key: \033[0m")
-        os.system("stty echo")
+        #os.system("stty echo")
         file.write(shodan_api_key)
         print ("\n[~] \033[34mFile written: ./api.txt \033[0m")
         file.close()
