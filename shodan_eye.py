@@ -53,34 +53,8 @@ banner1 = ("""
 
         """)
 
-banner2 = ("""
-
-\033[1;31m
-
-
-   ▄▄▄▄▄    ▄  █ ████▄ ██▄   ██      ▄       ▄███▄ ▀▄    ▄ ▄███▄
-  █     ▀▄ █   █ █   █ █  █  █ █      █      █▀   ▀  █  █  █▀   ▀
-▄  ▀▀▀▀▄   ██▀▀█ █   █ █   █ █▄▄█ ██   █     ██▄▄     ▀█   ██▄▄
- ▀▄▄▄▄▀    █   █ ▀████ █  █  █  █ █ █  █     █▄   ▄▀  █    █▄   ▄▀
-              █        ███▀     █ █  █ █     ▀███▀  ▄▀     ▀███▀
-             ▀                 █  █   ██                       v1.3.0
-
-                              ▀
-\033[1;m
-        \033[1;31mShodan Eye v1.3.0\033[0m
-     
-     ✓ The author will not be responsible for any damage caused or any laws broken by the end user, or misuse of information.
-     ✓ Just remember, initiating or carrying out any breaches of privacy or data without written permission is illegal.
- 
-             Author:  Jolanda de Koff Bulls Eye (Audited by Jonathan A Kurtz)
-             Github:  https://github.com/BullsEye0
-             Website: https://HackingPassion.com
-
-        """)
-
-choi = (banner1, banner2)
-print (random.choice(choi))
-time.sleep(0.5)
+print (banner1)
+time.sleep(1)
 
 data = input("\n[+] \033[34mWould you like to save output to a file? \033[0m(Y/N) ").strip()
 l0g = ("")
@@ -109,7 +83,7 @@ def showdam():
         file = open("api.txt", "w")
         os.system("stty -echo")
         shodan_api_key = input("[!] \033[34mPlease enter a valid Shodan API Key: \033[0m")
-        #os.system("stty echo")
+        os.system("stty -echo")
         file.write(shodan_api_key)
         print ("\n[~] \033[34mFile written: ./api.txt \033[0m")
         file.close()
