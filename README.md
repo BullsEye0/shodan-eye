@@ -106,6 +106,8 @@ Social Networks - Connect
 
 * Website [HackingPassion.com](https://hackingpassion.com)
 
+* Website [BullsEye0.com](https://bullseye0.com)
+
 * [Facebook Personal](https://www.facebook.com/jolandadekoff)
 
 * [linkedin](https://www.linkedin.com/in/jolandadekoff/)
@@ -118,6 +120,9 @@ Social Networks - Connect
 
 
 ## Buy me a coffee
+
+[Donate](https://bullseye0.com/donate)
+
 I have developed Shodan Eye because I am passionate about this. 
 Donations are one of the many ways to support what I do.
 
