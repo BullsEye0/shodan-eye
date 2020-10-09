@@ -86,7 +86,7 @@ Debian-based
 This list would be expanded
 
 ****
-git clone https://github.com/BullsEye0/shodan_eye.git
+git clone https://github.com/BullsEye0/shodan-eye.git
 
 cd shodan-eye
 
