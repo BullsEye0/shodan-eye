@@ -128,7 +128,7 @@ def showdam():
         file.close()
 
     api = shodan.Shodan(shodan_api_key)
-    time.sleep(0.4)
+    time.sleep(1)
 
     limit = 888  # Just a number
     counter = 1
