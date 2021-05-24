@@ -73,12 +73,12 @@ causing malicious or damaging attacks.
 Shodan Eye has tested it so far on:
 
 **Linux**
-Kali Linux
-Parrot Security OS
-BlackArch
-Ubuntu
-Arch-based
-Debian-based
+- Kali Linux
+- Parrot Security OS
+- BlackArch
+- Ubuntu
+- Arch-based
+- Debian-based
 
 **Termux**
 **Windows**
@@ -86,15 +86,15 @@ Debian-based
 This list would be expanded
 
 ****
-git clone https://github.com/BullsEye0/shodan-eye.git
+`git clone https://github.com/BullsEye0/shodan-eye.git`
 
-cd shodan-eye
+`cd shodan-eye`
 
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 ****
 
 # How to use Shodan Eye
-python3 shodan_eye.py
+`python3 shodan_eye.py`
 
 (You will be asked for a Shodan API key)
 
