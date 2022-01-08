@@ -93,6 +93,7 @@ banner2 = ("""
             Author:  Jolanda de Koff Bulls Eye
             Github:  https://github.com/BullsEye0
             Website: https://HackingPassion.com
+            Patreon: https://www.patreon.com/jolandadekoff
 
             \033[1;31mHi there, Shall we play a game..?\033[0m 😃
         """)
