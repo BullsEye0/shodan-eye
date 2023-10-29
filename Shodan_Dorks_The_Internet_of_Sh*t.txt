@@ -1,14 +1,13 @@
 Shodan Dorks ... The Internet of Sh*t
 
 
-A small collection of search queries for Shodan
+A collection of search queries for Shodan
 
-This was written for educational purpose and pentest only.
-The author will be not responsible for any damage..!
+This was written for educational purposes and pentest only.
+The author will not be responsible for any damage..!
 The author of this tool is not responsible for any misuse of the information.
 You shall not misuse the information to gain unauthorized access.
-This information shall only be used to expand knowledge and not for
-causing malicious or damaging attacks.
+This information shall only be used to expand knowledge and not to cause malicious or damaging attacks.
 Performing any hacks without written permission is illegal..!!!
 
 
@@ -87,4 +86,179 @@ port:17 product:"Windows qotd"
 Find a Job Doing This..! →
 "X-Recruiting:"
 
+1. `webcam port:80`: Searches for accessible webcams on port 80.
+2. `default password port:23`: Finds devices with default credentials accessible via Telnet on port 23.
+3. `MongoDB port:27017`: Looks for unprotected MongoDB databases on port 27017.
+4. `Redis port:6379`: Searches for exposed Redis databases on port 6379.
+5. `Apache port:80`: Identifies Apache web servers on port 80 that might be outdated or misconfigured.
+6. `Nginx port:8080`: Finds Nginx servers on port 8080 that could have vulnerabilities.
+7. `FTP anonymous access port:21`: Searches for FTP servers that allow anonymous access on port 21.
+8. `SSH port:22`: Identifies SSH servers on port 22, potentially showing servers with weak encryption or authentication methods.
+9. `Telnet port:23`: Looks for Telnet services on port 23, which are often insecure due to lack of encryption.
+10. `MySQL port:3306`: Finds MySQL databases on port 3306 that might be exposed to the internet.
+11. `SQL Server port:1433`: Searches for Microsoft SQL Servers on port 1433 that might have vulnerabilities.
+12. `Oracle DB port:1521`: Identifies Oracle databases on port 1521 that might be misconfigured.
+13. `Elasticsearch port:9200`: Looks for exposed Elasticsearch databases on port 9200.
+14. `CouchDB port:5984`: Searches for CouchDB instances on port 5984 that might be vulnerable.
+15. `RDP port:3389`: Identifies Remote Desktop Protocol servers on port 3389 that could be susceptible to attacks.
+16. `VNC port:5900`: Finds VNC servers on port 5900 that might have weak authentication.
+17. `printer port:9100`: Searches for network printers on port 9100 that could be accessed without authorization.
+18. `industrial control system port:502`: Identifies industrial control systems on port 502, which can be critical if vulnerable.
+19. `SCADA port:44818`: Searches for SCADA systems on port 44818, often used in critical infrastructures.
+20. `router port:80`: Finds network routers on port 80 that might have vulnerabilities.
+21. `switch port:23`: Searches for network switches on port 23 that could be misconfigured.
+22. `firewall port:8080`: Identifies firewalls on port 8080 that might have open ports or other vulnerabilities.
+23. `IP camera port:554`: Finds IP cameras on port 554 that might be accessed without authorization.
+24. `smart TV port:80`: Searches for smart TVs on port 80 that could be susceptible to unauthorized access.
+25. `smart home port:1883`: Identifies smart home devices on port 1883 (commonly used for MQTT) that might have security flaws.
+26. `Modbus port:502`: Finds Modbus devices, often used in industrial control systems, on port 502.
+27. `SIP port:5060`: Searches for SIP services, commonly used in VoIP, on port 5060.
+28. `RabbitMQ port:5672`: Identifies RabbitMQ message brokers on port 5672.
+29. `Kafka port:9092`: Looks for Kafka distributed streaming platforms on port 9092.
+30. `Docker port:2375`: Searches for unprotected Docker APIs on port 2375.
+31. `Kubernetes port:6443`: Identifies exposed Kubernetes APIs on port 6443.
+32. `SMTP port:25`: Finds SMTP servers used for email sending on port 25.
+33. `IMAP port:143`: Searches for IMAP servers used for email receiving on port 143.
+34. `DNS port:53`: Identifies DNS servers on port 53, potentially susceptible to DNS poisoning.
+35. `LDAP port:389`: Looks for exposed LDAP directories on port 389.
+36. `VPN port:1194`: Searches for VPN servers running on the default OpenVPN port 1194.
+37. `TeamViewer port:5938`: Identifies TeamViewer remote control software on port 5938.
+38. `Squid Proxy port:3128`: Finds Squid proxy servers on port 3128.
+39. `Rsyslog port:514`: Searches for Rsyslog servers used for logging on port 514.
+40. `FTP Secure port:990`: Identifies secure FTP servers on port 990.
+41. `GitLab port:8080`: Looks for GitLab repositories on port 8080.
+42. `Jenkins port:8080`: Searches for Jenkins continuous integration servers on port 8080.
+43. `WordPress port:80`: Identifies WordPress sites that might be vulnerable to attacks on port 80.
+44. `Magento port:80`: Finds Magento e-commerce platforms on port 80.
+45. `phpMyAdmin port:8080`: Searches for phpMyAdmin panels on port 8080.
+46. `Cisco Router port:23`: Identifies Cisco routers accessible via Telnet on port 23.
+47. `Jupyter Notebook port:8888`: Looks for exposed Jupyter Notebooks on port 8888.
+48. `NAS port:5000`: Searches for Network-Attached Storage devices on port 5000.
+49. `Zabbix port:10050`: Identifies Zabbix monitoring software on port 10050.
+50. `Ethereum port:8545`: Finds Ethereum nodes on port 8545 that might be vulnerable.
+51. `Bitcoin port:8333`: Searches for Bitcoin nodes on port 8333.
+52. `RDP over SSL port:3391`: Identifies RDP servers running over SSL on port 3391.
+53. `SNMP port:161`: Looks for exposed SNMP devices on port 161.
+54. `PostgreSQL port:5432`: Searches for PostgreSQL databases on port 5432.
+55. `Tomcat port:8080`: Identifies Apache Tomcat servers on port 8080.
+56. `NetBIOS port:137`: Looks for NetBIOS services on port 137, often used in older Windows networks.
+57. `SMB port:445`: Searches for exposed SMB file-sharing services on port 445.
+58. `Cassandra port:9042`: Identifies Cassandra databases on port 9042.
+59. `MS Exchange port:25`: Searches for Microsoft Exchange servers on port 25.
+60. `Rsync port:873`: Identifies Rsync file transfer services on port 873.
+61. `Hadoop port:50070`: Looks for Hadoop clusters on port 50070.
+62. `Plex port:32400`: Searches for Plex media servers on port 32400.
+63. `Sonos port:1400`: Identifies Sonos sound systems on port 1400.
+64. `SFTP port:22`: Finds SFTP file transfer services running over SSH on port 22.
+65. `OpenVPN port:1194`: Searches for OpenVPN servers on port 1194.
+66. `XMPP port:5222`: Searches for XMPP/Jabber servers on port 5222.
+67. `MQTT port:1883`: Identifies MQTT brokers used in IoT on port 1883.
+68. `CoAP port:5683`: Looks for CoAP services, often used in IoT, on port 5683.
+69. `TFTP port:69`: Finds TFTP servers, often used for file transfers, on port 69.
+70. `POP3 port:110`: Searches for POP3 email servers on port 110.
+71. `RTSP port:554`: Identifies Real-Time Streaming Protocol servers on port 554.
+72. `HTTPS port:443`: Looks for SSL/TLS encrypted web servers on port 443.
+73. `NFS port:2049`: Searches for Network File System shares on port 2049.
+74. `Memcached port:11211`: Identifies Memcached servers used for caching on port 11211.
+75. `SOCKS Proxy port:1080`: Finds SOCKS proxy servers on port 1080.
+76. `HTTP Proxy port:8080`: Searches for HTTP proxy servers on port 8080.
+77. `SIP over TLS port:5061`: Identifies secure SIP servers on port 5061.
+78. `SMTPS port:465`: Finds secure SMTP servers on port 465.
+79. `RADIUS port:1812`: Searches for RADIUS authentication servers on port 1812.
+80. `VMware port:902`: Identifies VMware ESXi servers on port 902.
+81. `Grafana port:3000`: Looks for Grafana monitoring dashboards on port 3000.
+82. `Graylog port:9000`: Searches for Graylog log management systems on port 9000.
+83. `Kibana port:5601`: Identifies Kibana Elasticsearch dashboards on port 5601.
+84. `JIRA port:8080`: Looks for JIRA issue tracking systems on port 8080.
+85. `Confluence port:8090`: Searches for Confluence wiki platforms on port 8090.
+86. `SaltStack port:4505`: Identifies SaltStack automation servers on port 4505.
+87. `Puppet port:8140`: Finds Puppet configuration management servers on port 8140.
+88. `Ansible port:22`: Searches for Ansible automation over SSH on port 22.
+89. `Spiceworks port:9675`: Identifies Spiceworks IT management platforms on port 9675.
+90. `Zenoss port:8080`: Looks for Zenoss monitoring systems on port 8080.
+91. `Cacti port:80`: Searches for Cacti network graphing solutions on port 80.
+92. `Icinga port:5665`: Identifies Icinga network monitoring servers on port 5665.
+93. `Nagios port:80`: Looks for Nagios monitoring systems on port 80.
+94. `Zimbra port:7071`: Searches for Zimbra email and collaboration platforms on port 7071.
+95. `Nextcloud port:80`: Identifies Nextcloud file sync servers on port 80.
+96. `OwnCloud port:80`: Looks for OwnCloud file sync servers on port 80.
+97. `Webmin port:10000`: Searches for Webmin web-based admin panels on port 10000.
+98. `CPanel port:2083`: Identifies cPanel web hosting control panels on port 2083.
+99. `Plesk port:8443`: Finds Plesk web hosting control panels on port 8443.
+100. `DirectAdmin port:2222`: Searches for DirectAdmin web hosting control panels on port 2222.
+101. `CyberArk port:1858`: Identifies CyberArk privileged access management on port 1858.
+102. `Fortinet port:80`: Looks for Fortinet security appliances on port 80.
+103. `Checkpoint port:18264`: Searches for Checkpoint security gateways on port 18264.
+104. `PaloAlto port:443`: Identifies Palo Alto Networks firewalls on port 443.
+105. `Juniper port:161`: Finds Juniper network devices via SNMP on port 161.
+106. `Oracle port:1521`: Searches for Oracle databases running on port 1521.
+107. `MongoDB port:27017`: Identifies MongoDB databases on port 27017.
+108. `Redis port:6379`: Looks for Redis in-memory databases on port 6379.
+109. `Elasticsearch port:9200`: Finds Elasticsearch search engines on port 9200.
+110. `CouchDB port:5984`: Searches for CouchDB databases on port 5984.
+111. `MariaDB port:3306`: Identifies MariaDB SQL databases on port 3306.
+112. `Neo4j port:7474`: Looks for Neo4j graph databases on port 7474.
+113. `Riak port:8087`: Searches for Riak NoSQL databases on port 8087.
+114. `Solr port:8983`: Identifies Apache Solr search platforms on port 8983.
+115. `ActiveMQ port:61616`: Finds ActiveMQ message brokers on port 61616.
+116. `EMC Storage port:443`: Searches for EMC storage solutions on port 443.
+117. `NetApp port:80`: Identifies NetApp data storage solutions on port 80.
+118. `SAP port:3200`: Looks for SAP enterprise software on port 3200.
+119. `MS SQL port:1433`: Searches for Microsoft SQL Server databases on port 1433.
+120. `Druid port:8082`: Identifies Druid data stores on port 8082.
+121. `InfluxDB port:8086`: Looks for InfluxDB time-series databases on port 8086.
+122. `CockroachDB port:26257`: Searches for CockroachDB databases on port 26257.
+123. `CrateDB port:4200`: Identifies CrateDB databases on port 4200.
+124. `FileMaker port:5003`: Looks for FileMaker databases on port 5003.
+125. `DB2 port:50000`: Searches for IBM DB2 databases on port 50000.
+126. `Teradata port:1025`: Identifies Teradata databases on port 1025.
+127. `Sybase port:5000`: Looks for Sybase databases on port 5000.
+128. `Firebird port:3050`: Searches for Firebird SQL databases on port 3050.
+129. `HBase port:16010`: Identifies HBase databases on port 16010.
+130. `Vertica port:5433`: Looks for Vertica databases on port 5433.
+131. `Greenplum port:5432`: Searches for Greenplum databases on port 5432.
+132. `VoltDB port:21212`: Identifies VoltDB databases on port 21212.
+133. `Citrix port:1494`: Looks for Citrix Virtual Apps on port 1494.
+134. `VNC port:5900`: Searches for VNC remote desktops on port 5900.
+135. `Radmin port:4899`: Identifies Radmin remote admin software on port 4899.
+136. `SSH port:22`: Looks for SSH servers for remote access on port 22.
+137. `Telnet port:23`: Searches for Telnet services for remote access on port 23.
+138. `Guacamole port:8080`: Identifies Apache Guacamole remote desktops on port 8080.
+139. `AnyDesk port:7070`: Looks for AnyDesk remote desktop software on port 7070.
+140. `LogMeIn port:12975`: Searches for LogMeIn remote access services on port 12975.
+141. `Splashtop port:6783`: Identifies Splashtop remote desktops on port 6783.
+142. `NoMachine port:4000`: Looks for NoMachine remote desktops on port 4000.
+143. `ConnectWise port:8040`: Searches for ConnectWise remote support on port 8040.
+144. `GoToMyPC port:8200`: Identifies GoToMyPC remote access on port 8200.
+145. `Parallels port:64001`: Looks for Parallels remote desktops on port 64001.
+146. `Squid Proxy port:3128`: Searches for Squid Proxy servers on port 3128.
+147. `FTP port:21`: Identifies FTP servers on port 21.
+148. `OpenVPN port:1194`: Looks for OpenVPN servers on port 1194.
+149. `Nginx port:80`: Finds Nginx web servers on port 80.
+150. `PostgreSQL port:5432`: Searches for PostgreSQL databases on port 5432.
+151. `Cassandra port:9042`: Identifies Apache Cassandra databases on port 9042.
+152. `ZooKeeper port:2181`: Looks for ZooKeeper coordination services on port 2181.
+153. `TeamSpeak port:9987`: Searches for TeamSpeak servers on port 9987.
+154. `LDAP port:389`: Identifies LDAP servers on port 389.
+155. `OpenLDAP port:636`: Looks for OpenLDAP servers on port 636.
+156. `DHCP port:67`: Searches for DHCP servers on port 67.
+157. `DNS port:53`: Identifies DNS servers on port 53.
+158. `NTP port:123`: Looks for Network Time Protocol servers on port 123.
+159. `RDP port:3389`: Searches for Remote Desktop Protocol servers on port 3389.
+160. `GitLab port:80`: Identifies GitLab servers on port 80.
+161. `Jenkins port:8080`: Looks for Jenkins CI/CD servers on port 8080.
+162. `Travis CI port:443`: Searches for Travis CI servers on port 443.
+163. `CircleCI port:80`: Identifies CircleCI servers on port 80.
+164. `WebRTC port:3478`: Looks for WebRTC STUN/TURN servers on port 3478.
+165. `MediaWiki port:80`: Searches for MediaWiki installations on port 80.
+166. `WordPress port:80`: Identifies WordPress sites on port 80.
+167. `Joomla port:80`: Looks for Joomla CMS installations on port 80.
+168. `Magento port:80`: Searches for Magento eCommerce platforms on port 80.
+169. `Drupal port:80`: Identifies Drupal CMS installations on port 80.
+170. `PrestaShop port:80`: Looks for PrestaShop eCommerce sites on port 80.
+171. `Shopify port:443`: Searches for Shopify stores on port 443.
+172. `WooCommerce port:80`: Identifies WooCommerce stores on port 80.
+173. `BigCommerce port:443`: Looks for BigCommerce stores on port 443.
+174. `Wix port:443`: Searches for Wix websites on port 443.
+175. `Weebly port:443`: Identifies Weebly websites on port 443.
 
