@@ -46,6 +46,11 @@ Shodan Dorks ... The Internet of Sh*t
 * https://github.com/BullsEye0/shodan-eye/blob/master/Shodan_Dorks_The_Internet_of_Sh*t.txt
 ****
 
+## A more exhaustive list for those who want to dive deep can be found here:
+Shodan Dorks by twitter.com/lothos612
+* https://github.com/lothos612/shodan
+****
+
 ## I also want to make you aware that:
 * This was written for educational purpose and pentest only.
 * The author will not be responsible for any damage ..!
