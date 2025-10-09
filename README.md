@@ -116,7 +116,7 @@ Social Networks - Connect
 
 * Website [HackingPassion.com](https://hackingpassion.com)
 
-* [Facebook Personal](https://www.facebook.com/jolandadekoff)
+* [Facebook Personal](https://www.facebook.com/profile.php?id=100069546190609)
 
 * [linkedin](https://www.linkedin.com/in/jolandadekoff/)
 
