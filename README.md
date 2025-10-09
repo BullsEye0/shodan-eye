@@ -155,7 +155,7 @@ HACKING IS NOT A HOBBY, BUT A WAY OF LIFE 🎯
 I have developed Shodan Eye because I am passionate about this. 
 Donations are one of the many ways to support what I do.
 
-[Donate](https://bullseye0.com/donate)
+[Donate](https://hackingpassion.com/donate/)
 
 BAT: Use [Brave](https://brave.com/bul891) and donate on any of my web pages/profiles
 
