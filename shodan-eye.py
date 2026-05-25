@@ -17,15 +17,15 @@
 
 # Shodan Eye v1.2.0 Created April - August 2019
 # Shodan Eye v1.3.0 December 2019
-# Copyright (c) 2019 - 2025 Jolanda de Koff.
+# Copyright (c) 2019 - 2026 Jolanda de Koff.
 
 # Your Shodan API Key can be found here: https://account.shodan.io
 
 ########################################################################
 
 # A notice to all nerds and n00bs...
-# If you will copy the developer's work it will not make you a hacker..!
-# Respect all developers, we doing this because it's fun...
+# If you copy the developer's work, it will not make you a hacker..!
+# Respect all developers, we're doing this because it's fun...
 
 ########################################################################
 
