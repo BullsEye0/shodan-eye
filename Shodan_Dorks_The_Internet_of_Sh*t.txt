@@ -1,7 +1,6 @@
 Shodan Dorks ... The Internet of Sh*t
 
-
-A collection of search queries for Shodan
+A collection of search queries for Shodan Eye
 
 This was written for educational purposes and pentest only.
 The author will not be responsible for any damage..!
@@ -14,77 +13,63 @@ Performing any hacks without written permission is illegal..!!!
 Chromecasts / Smart TVs →
 "Chromecast:" port:8008
 
-
 Traffic Light Controllers / Red Light Cameras →
 mikrotik streetlight
-
 
 IP cams, some of which are unprotected →
 IP Cams
 
-
 + 21k surveillance cams, user: admin; NO PASSWORD →
 NETSurveillance uc-httpd
-
 
 DICOM Medical X-Ray Machines →
 Secured by default, thankfully, but these 1,700 + machines still have no business being on the internet..!
 DICOM Server Response
 
-
 Door / Lock Access Controllers →
 "HID VertX" port:4070
 
-
 Electric Vehicle Chargers mag_right →
 "Server: gSOAP/2.8" "Content-Length: 583"
-
 
 Remote Desktop →
 Unprotected..!
 "authentication disabled" "RFB 003.008"
 
-
 Windows RDP →
 99.99% are secured by a secondary Windows login screen.
 "\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"
-
 
 Lantronix ethernet adapter's →
 admin interface open, NO PASSWORD required.
 Press Enter Setup Mode port:9999
 
-
 Pi-hole Open DNS Servers →
 "dnsmasq-pi-hole" "Recursion: enabled"
 
-
 Already Logged-In as root via Telnet →
 "root@" port:23 -login -password -name -Session
-
 
 Android Root Bridges →
 A tangential result of Google’s dumb fractured update approach.
 "Android Debug Bridge" "Device" port:5555
 
-
 Xerox Copiers/Printers →
 With root acces..!
 ssl:"Xerox Generic Root"
-
 
 Apple AirPlay Receivers →
 Apple TVs, HomePods, etc.
 "\x08_airplay" port:5353
 
-
 TCP Quote of the Day →
 Port 17 (RFC 865) has a bizarre history…
 port:17 product:"Windows qotd"
 
-
 Find a Job Doing This..! →
 "X-Recruiting:"
+
+---
 
 1. `webcam port:80`: Searches for accessible webcams on port 80.
 2. `default password port:23`: Finds devices with default credentials accessible via Telnet on port 23.
