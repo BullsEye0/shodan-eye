@@ -8,10 +8,10 @@
 #   ███    ███   ███    █▀          GitHub: https://github.com/BullsEye0
 #  ▄███▄▄▄██▀   ▄███▄▄▄             linkedin: https://www.linkedin.com/in/jolandadekoff
 # ▀▀███▀▀▀██▄  ▀▀███▀▀▀             Facebook Group: https://www.facebook.com/groups/hack.passion/
-#   ███    ██▄   ███    █▄          Facebook: https://www.facebook.com/profile.php?id=100069546190609
+#   ███    ██▄   ███    █▄          Facebook: https://www.facebook.com/ethical.hack.group/
 #   ███    ███   ███    ███         Twitter: https://twitter.com/bulls__eye
 # ▄█████████▀    ██████████         LBRY: https://lbry.tv/$/invite/@hackingpassion:9
-#                                   
+#                                   YouTube: https://www.youtube.com/@HackingPassion
 #          Bulls Eye..!
 # ===== #
 
@@ -56,10 +56,10 @@ banner1 = ("""
 \033[1;m
             \033[1;31mShodan Eye v1.3.0\033[0m
 
-    ✓ The author is not responsible for any damage, misuse of the information.
+    ✓ The author is not responsible for any damage or misuse of the information.
     ✓ Shodan Eye shall only be used to expand knowledge and not for
       causing malicious or damaging attacks.
-    ✓ Just remember, Performing any hacks without written permission is illegal ..!
+    ✓ Just remember, performing any hacks without written permission is illegal ..!
 
             Author:  Jolanda de Koff Bulls Eye
             Github:  https://github.com/BullsEye0
@@ -84,10 +84,10 @@ banner2 = ("""
 \033[1;m
         \033[1;31mShodan Eye v1.3.0\033[0m
 
-    ✓ The author is not responsible for any damage, misuse of the information.
+    ✓ The author is not responsible for any damage or misuse of the information.
     ✓ Shodan Eye shall only be used to expand knowledge and not for
       causing malicious or damaging attacks.
-    ✓ Just remember, Performing any hacks without written permission is illegal ..!
+    ✓ Just remember, performing any hacks without written permission is illegal ..!
 
             Author:  Jolanda de Koff Bulls Eye
             Github:  https://github.com/BullsEye0
