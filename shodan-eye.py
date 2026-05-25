@@ -151,7 +151,6 @@ def showdam():
             print ("[+] \033[1;31mOrganization: \033[1;m" + str(banner["org"]))
             print ("[+] \033[1;31mLocation: \033[1;m" + str(banner["location"]))
             print ("[+] \033[1;31mLayer: \033[1;m" + (banner["transport"]))
-            print ("[+] \033[1;31mLayer: \033[1;m" + (banner["transport"]))
             print ("[+] \033[1;31mDomains: \033[1;m" + str(banner["domains"]))
             print ("[+] \033[1;31mHostnames: \033[1;m" + str(banner["hostnames"]))
             print ("[+] \033[1;31mThe banner information for the service: \033[1;m\n\n" + (banner["data"]))
